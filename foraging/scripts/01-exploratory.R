@@ -6,9 +6,21 @@ library(ggplot2)
 
 df <- fread("input/foraging.csv")
 
+############################## 
+########## SEASON ############
+############################## 
+
 df <- df[!is.na(season)]
 
 df[, mean(forbs, na.rm = T), by = "season"]
+
+df$season[df$season == "calving"] <- "1-Calving"
+df$season[df$season == "summer"] <- "2-Summer"
+df$season[df$season == "rut"] <- "3-Autumn"
+df$season[df$season == "fall"] <- "3-Autumn"
+df$season[df$season == "winter"] <- "4-Winter"
+df$season[df$season == "spring"] <- "5-Spring"
+
 
 aa <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "season"], 
                  df[,mean(graminoid, na.rm = T), by = "season"], 
@@ -18,65 +30,41 @@ aa <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "season"],
                  df[,mean(tree, na.rm = T), by = "season"], 
                  df[,mean(moss, na.rm = T), by = "season"], 
                  df[,mean(fungi, na.rm = T), by = "season"]),
-                 #df[,mean(other, na.rm = T), by = "season"]),
-           plant = c(rep(c("lichen"), 6),
-                     rep(c("graminoid"), 6), 
-                     rep(c("forbs"), 6), 
-                     rep(c("shrubs"), 6), 
-                     rep(c("horsetail"), 6), 
-                     rep(c("tree"), 6), 
-                     rep(c("moss"), 6), 
-                     rep(c("fungi"), 6)))
+                 rbind(df[,sd(lichen, na.rm = T), by = "season"], 
+                 df[,sd(graminoid, na.rm = T), by = "season"], 
+                 df[,sd(forbs, na.rm = T), by = "season"], 
+                 df[,sd(shrubs, na.rm = T), by = "season"], 
+                 df[,sd(horsetail, na.rm = T), by = "season"], 
+                 df[,sd(tree, na.rm = T), by = "season"], 
+                 df[,sd(moss, na.rm = T), by = "season"], 
+                 df[,sd(fungi, na.rm = T), by = "season"]),
+           plant = c(rep(c("lichen"), 5),
+                     rep(c("graminoid"), 5), 
+                     rep(c("forbs"), 5), 
+                     rep(c("shrubs"), 5), 
+                     rep(c("horsetail"), 5), 
+                     rep(c("tree"), 5), 
+                     rep(c("moss"), 5), 
+                     rep(c("fungi"), 5)))
 
+aa <- aa[,2:5]
+colnames(aa) <- c("meanDiet", "season", "sdDiet", "plant")
 
-aa$season[aa$season == "calving"] <- "1-Calving"
-aa$season[aa$season == "summer"] <- "2-Summer"
-aa$season[aa$season == "rut"] <- "3-Rut"
-aa$season[aa$season == "fall"] <- "4-Autumn"
-aa$season[aa$season == "winter"] <- "5-winter"
-aa$season[aa$season == "spring"] <- "6-spring"
+fwrite(aa, "output/season.csv")
 
+############################## 
+########## SUBSPECIES ############
+############################## 
 
-ggplot(aa, 
-       aes(plant,V1,fill=plant)) + 
-  geom_bar(stat = "identity", na.rm=TRUE) +
-  ylab("% of diet") +
-  theme(#legend.position = c(0.1, 0.875),
-        legend.key = element_blank(),
-        legend.text = element_text(size = 12, color = "black"),
-        legend.title = element_blank(),
-        axis.title = element_text(size=18),
-        axis.text.y = element_text(size=12, color = "black"),
-        axis.text.x = element_text(size = 12, color = "black", angle = 45, hjust = 1), 
-        strip.text  = element_text(size = 16),
-        strip.background = element_rect(colour="black", size = 1, fill = "white"),
-        panel.grid.minor = element_blank(),
-        panel.background = element_blank(),
-        panel.border = element_rect(colour = "black", fill=NA, size=1)) +
-  facet_wrap(~season)
+unique(df$Subspecies)
 
-
-png("figures/fig1.png", width = 6000, height = 4500, units = "px", res = 600)
-ggplot(aa, 
-       aes(season,V1,fill=season)) + 
-  geom_bar(stat = "identity", na.rm=TRUE) +
-  ylab("% of diet") +
-  theme(#legend.position = c(0.1, 0.875),
-    legend.key = element_blank(),
-    legend.text = element_text(size = 12, color = "black"),
-    legend.title = element_blank(),
-    axis.title = element_text(size=18),
-    axis.text.y = element_text(size=12, color = "black"),
-    axis.text.x = element_text(size = 12, color = "black", angle = 90, hjust = 1), 
-    strip.text  = element_text(size = 16),
-    strip.background = element_rect(colour="black", size = 1, fill = "white"),
-    panel.grid.minor = element_blank(),
-    panel.background = element_blank(),
-    panel.border = element_rect(colour = "black", fill=NA, size=1)) +
-  facet_wrap(~plant)
-dev.off()
-
-unique(df$caribou_type)
+df$Subspecies[df$Subspecies == "Peary"] <- "1-Peary"
+df$Subspecies[df$Subspecies == "Greenland"] <- "2-Greenland"
+df$Subspecies[df$Subspecies == "barren-ground"] <- "3-Barren Ground"
+df$Subspecies[df$Subspecies == "mountaine"] <- "4-Mountain"
+df$Subspecies[df$Subspecies == "woodland"] <- "5-Woodland"
+df$Subspecies[df$Subspecies == "reindeer"] <- "6-Reindeer"
+df$Subspecies[df$Subspecies == "introduced-reindeer"] <- "7-Introduced-Reindeer"
 
 bb <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "Subspecies"], 
                        df[,mean(graminoid, na.rm = T), by = "Subspecies"], 
@@ -86,6 +74,14 @@ bb <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "Subspecies"],
                        df[,mean(tree, na.rm = T), by = "Subspecies"], 
                        df[,mean(moss, na.rm = T), by = "Subspecies"], 
                        df[,mean(fungi, na.rm = T), by = "Subspecies"]),
+                 rbind(df[,sd(lichen, na.rm = T), by = "Subspecies"], 
+                       df[,sd(graminoid, na.rm = T), by = "Subspecies"], 
+                       df[,sd(forbs, na.rm = T), by = "Subspecies"], 
+                       df[,sd(shrubs, na.rm = T), by = "Subspecies"], 
+                       df[,sd(horsetail, na.rm = T), by = "Subspecies"], 
+                       df[,sd(tree, na.rm = T), by = "Subspecies"], 
+                       df[,sd(moss, na.rm = T), by = "Subspecies"], 
+                       df[,sd(fungi, na.rm = T), by = "Subspecies"]),
                  plant = c(rep(c("lichen"), 7),
                            rep(c("graminoid"), 7), 
                            rep(c("forbs"), 7), 
@@ -95,23 +91,15 @@ bb <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "Subspecies"],
                            rep(c("moss"), 7), 
                            rep(c("fungi"), 7)))
 
-ggplot(bb, 
-       aes(Subspecies,V1,fill=Subspecies)) + 
-  geom_bar(stat = "identity", na.rm=TRUE) +
-  ylab("% of diet") +
-  theme(#legend.position = c(0.1, 0.875),
-    legend.key = element_blank(),
-    legend.text = element_text(size = 12, color = "black"),
-    legend.title = element_blank(),
-    axis.title = element_text(size=18),
-    axis.text.y = element_text(size=12, color = "black"),
-    axis.text.x = element_text(size = 12, color = "black", angle = 90, hjust = 1), 
-    strip.text  = element_text(size = 16),
-    strip.background = element_rect(colour="black", size = 1, fill = "white"),
-    panel.grid.minor = element_blank(),
-    panel.background = element_blank(),
-    panel.border = element_rect(colour = "black", fill=NA, size=1)) +
-  facet_wrap(~plant)
+bb <- bb[,2:5]
+colnames(bb) <- c("meanDiet", "subspecies", "sdDiet", "plant")
+
+fwrite(bb, "output/subspecies.csv")
+
+############################## 
+########## LATITUDE ##########
+############################## 
+
 
 cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("caribou_herd", "latitude", "season")], 
                          df[,mean(graminoid, na.rm = T), by = c("caribou_herd", "latitude", "season")], 
@@ -121,28 +109,15 @@ cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("caribou_herd", "lati
                          df[,mean(tree, na.rm = T), by = c("caribou_herd", "latitude", "season")], 
                          df[,mean(moss, na.rm = T), by = c("caribou_herd", "latitude", "season")], 
                          df[,mean(fungi, na.rm = T), by = c("caribou_herd", "latitude", "season")]),
-                   plant = c(rep(c("lichen"),82),
-                             rep(c("graminoid"), 82), 
-                             rep(c("forbs"), 82), 
-                             rep(c("shrubs"), 82), 
-                             rep(c("horsetail"), 82), 
-                             rep(c("tree"), 82), 
-                             rep(c("moss"), 82), 
-                             rep(c("fungi"), 82)))
+                   plant = c(rep(c("lichen"),81),
+                             rep(c("graminoid"), 81), 
+                             rep(c("forbs"), 81), 
+                             rep(c("shrubs"), 81), 
+                             rep(c("horsetail"), 81), 
+                             rep(c("tree"), 81), 
+                             rep(c("moss"), 81), 
+                             rep(c("fungi"), 81)))
 
-ggplot(cc[plant == "shrubs"], aes(latitude, V1, color = plant), ) +
-  geom_jitter(width = 1) +
-  geom_smooth(method = "gam") +
-  ylab("% Item in diet") + 
-  theme(#legend.position = c(0.1, 0.875),
-    legend.key = element_blank(),
-    legend.text = element_text(size = 12, color = "black"),
-    axis.title = element_text(size=18),
-    axis.text.y = element_text(size=12, color = "black"),
-    axis.text.x = element_text(size = 12, color = "black"), 
-    strip.text  = element_text(size = 16),
-    strip.background = element_rect(colour="black", size = 1, fill = "white"),
-    panel.grid.minor = element_blank(),
-    panel.background = element_blank(),
-    panel.border = element_rect(colour = "black", fill=NA, size=1))
-  facet_wrap(~season)
+colnames(cc) <- c("herd", "latitude", "season", "meanDiet", "plant")
+
+fwrite(cc, file = "output/latitude.csv")
