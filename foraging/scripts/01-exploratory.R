@@ -53,7 +53,7 @@ colnames(aa) <- c("meanDiet", "season", "sdDiet", "plant")
 fwrite(aa, "output/season.csv")
 
 ############################## 
-########## SUBSPECIES ############
+########## SUBSPECIES #########
 ############################## 
 
 unique(df$Subspecies)
