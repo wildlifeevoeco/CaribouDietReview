@@ -12,3 +12,6 @@ ggplot(df, aes(aug_daily_average, shrubs)) +
 ggplot(df, aes(aug_daily_average, lichen)) +
   geom_point() +
   geom_smooth()
+ggplot(df, aes(aug_daily_average, graminoid)) +
+  geom_point() +
+  geom_smooth()
