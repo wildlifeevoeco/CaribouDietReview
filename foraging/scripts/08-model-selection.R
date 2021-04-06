@@ -1,12 +1,15 @@
 
-
+library(data.table)
 library(glmmTMB)
 
+
+## load data
 sub <- fread("output/clean-data.csv")
 sub$lichen <- sub$lichen/100
 sub$graminoid <- sub$graminoid/100
 sub$shrubs <- sub$shrubs/100
 
+## change names of some variables
 setnames(sub, c("data type", "Subspecies", "sympatric_ungulates"), c("data", "subspecies", "symp"))
 
 
@@ -70,7 +73,7 @@ aic <- AIC(a1, a2, a3, a4, a5)
 data.table(AIC = aic$AIC, 
            delta = abs(min(aic$AIC) - aic$AIC))
 
-summary(a4)
+summary(a3)
 
 ############################# 
 ######## GRAMINOID ##########
