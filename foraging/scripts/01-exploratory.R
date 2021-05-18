@@ -75,7 +75,8 @@ df$Subspecies[df$Subspecies == "woodland"] <- "4-Woodland"
 df$Subspecies[df$Subspecies == "reindeer"] <- "5-Reindeer"
 df$Subspecies[df$Subspecies == "introduced-reindeer"] <- "6-Introduced-Reindeer"
 
-df <- df[,c("lichen", "graminoid", "shrubs", "data type", "latitude",
+df <- df[,c("lichen", "graminoid", "shrubs", "forbs", "horsetail", "tree", "moss", "fungi",
+            "data type", "latitude", "longitude",
                "sympatric_ungulates", "aug_daily_average",
                  "Subspecies", "season","authors")]
 
@@ -116,23 +117,23 @@ fwrite(bb, "output/subspecies-summary.csv")
 ############################## 
 
 
-cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("caribou_herd", "latitude", "longitude", "season")], 
-                         df[,mean(graminoid, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(forbs, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(shrubs, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(horsetail, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(tree, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(moss, na.rm = T), by = c("caribou_herd", "latitude", "longitude","season")], 
-                         df[,mean(fungi, na.rm = T), by = c("caribou_herd", "latitude", "longitude", "season")]),
-                   plant = c(rep(c("lichen"),81),
-                             rep(c("graminoid"), 81), 
-                             rep(c("forbs"), 81), 
-                             rep(c("shrubs"), 81), 
-                             rep(c("horsetail"), 81), 
-                             rep(c("tree"), 81), 
-                             rep(c("moss"), 81), 
-                             rep(c("fungi"), 81)))
+cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("latitude", "longitude", "season")], 
+                         df[,mean(graminoid, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(forbs, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(shrubs, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(horsetail, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(tree, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(moss, na.rm = T), by = c( "latitude", "longitude","season")], 
+                         df[,mean(fungi, na.rm = T), by = c( "latitude", "longitude", "season")]),
+                   plant = c(rep(c("lichen"),58),
+                             rep(c("graminoid"), 58), 
+                             rep(c("forbs"), 58), 
+                             rep(c("shrubs"), 58), 
+                             rep(c("horsetail"), 58), 
+                             rep(c("tree"), 58), 
+                             rep(c("moss"), 58), 
+                             rep(c("fungi"), 58)))
 
-colnames(cc) <- c("herd", "latitude", "longitude",  "season", "meanDiet", "plant")
+colnames(cc) <- c("latitude", "longitude",  "season", "meanDiet", "plant")
 
 fwrite(cc, file = "output/latitude.csv")
