@@ -45,6 +45,21 @@ length(unique(plants$authors))
 ## number of genera per plant type
 plants[plant_species != "no_species"][, uniqueN(genus), by = "type_plant"]
 
+### NMDS 
+plants <- plants[plant_species != "no_species"]
+plants_long <- plants[, uniqueN(plant_species), by = c("authors", "plant_species")]
+data_wide <- spread(plants_long, plant_species, V1)
+data_wide[is.na(data_wide)] <- 0
+
+com = data_wide[,2:ncol(data_wide)]
+m_com = as.matrix(com)
+
+library(vegan)
+nmds = metaMDS(m_com, distance = "bray")
+nmds
+plot(nmds)
+
+
 ## number plant species per article
 common <- plants[plant_species != "no_species"][, .N, by = c("genus")]
 
