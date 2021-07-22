@@ -23,8 +23,7 @@ a1 <- glmmTMB(lichen ~
                 season + 
                 latitude + 
                 symp + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -33,7 +32,7 @@ a1 <- glmmTMB(lichen ~
 a2 <- glmmTMB(lichen ~ 
                 season + 
                 latitude + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -43,7 +42,7 @@ a3 <- glmmTMB(lichen ~
                 subspecies + 
                 season +
                 latitude + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -53,22 +52,12 @@ a4 <- glmmTMB(lichen ~
                 season + 
                 latitude + 
                 symp + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
-## temp model
-a5 <- glmmTMB(lichen ~ 
-                season +  
-                latitude + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
-              ziformula=~1,
-              family=beta_family,
-              data = sub)
-
-aic <- AIC(a1, a2, a3, a4, a5)
+aic <- AIC(a1, a2, a3, a4)
 
 data.table(AIC = aic$AIC, 
            delta = abs(min(aic$AIC) - aic$AIC))
@@ -85,8 +74,7 @@ b1 <- glmmTMB(graminoid ~
                 season + 
                 latitude + 
                 symp + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -95,7 +83,7 @@ b1 <- glmmTMB(graminoid ~
 b2 <- glmmTMB(graminoid ~ 
                 season + 
                 latitude + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -105,7 +93,7 @@ b3 <- glmmTMB(graminoid ~
                 subspecies + 
                 season +
                 latitude + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -115,22 +103,12 @@ b4 <- glmmTMB(graminoid ~
                 season + 
                 latitude + 
                 symp + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
-## temp model
-b5 <- glmmTMB(graminoid ~ 
-                season +  
-                latitude + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
-              ziformula=~1,
-              family=beta_family,
-              data = sub)
-
-aic <- AIC(b1, b2, b3, b4, b5)
+aic <- AIC(b1, b2, b3, b4)
 
 data.table(AIC = aic$AIC, 
            delta = abs(min(aic$AIC) - aic$AIC))
@@ -147,8 +125,8 @@ c1 <- glmmTMB(vascular ~
                 season + 
                 scale(latitude) + 
                 symp + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
+                data + 
+                (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -157,7 +135,7 @@ c1 <- glmmTMB(vascular ~
 c2 <- glmmTMB(vascular ~ 
                 season + 
                 scale(latitude) + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -167,7 +145,7 @@ c3 <- glmmTMB(vascular ~
                 subspecies + 
                 season +
                 scale(latitude)  + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -177,25 +155,15 @@ c4 <- glmmTMB(vascular ~
                 season + 
                 scale(latitude) + 
                 symp + 
-                (1|data) + (1|author_yr),
+                data + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
-## temp model
-c5 <- glmmTMB(vascular ~ 
-                season +  
-                scale(latitude) + 
-                aug_daily_average +
-                (1|data) + (1|author_yr),
-              ziformula=~1,
-              family=beta_family,
-              data = sub)
-
-aic <- AICc(c1, c2, c3, c4, c5)
+aic <- AIC(c1, c2, c3, c4)
 
 data.table(AIC = aic$AIC, 
            delta = abs(min(aic$AIC) - aic$AIC))
 
-summary(c5)
+summary(c1)
 
