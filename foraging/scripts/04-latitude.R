@@ -15,7 +15,7 @@ lat$season[lat$season == "spring"] <- "5-Spring"
 lat$season[lat$season == ""] <- NA
 lat <- na.omit(lat, cols="season")
 
-mod_lich <- glmmTMB(meanDiet ~ latitude + season + (1|herd), data = lat[plant == "lichen"])
+mod_lich <- glmmTMB(meanDiet ~ latitude + season, data = lat[plant == "lichen"])
 summary(mod_lich)
 
 png("figures/fig3.png", width = 6000, height = 3000, units = "px", res = 600)
