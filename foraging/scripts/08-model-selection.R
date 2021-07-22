@@ -7,7 +7,7 @@ library(glmmTMB)
 sub <- fread("output/clean-data.csv")
 sub$lichen <- sub$lichen/100
 sub$graminoid <- sub$graminoid/100
-sub$shrubs <- sub$shrubs/100
+sub$vascular <- sub$vascular/100
 
 ## change names of some variables
 setnames(sub, c("data type", "Subspecies", "sympatric_ungulates"), c("data", "subspecies", "symp"))
@@ -24,7 +24,7 @@ a1 <- glmmTMB(lichen ~
                 latitude + 
                 symp + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -33,7 +33,7 @@ a1 <- glmmTMB(lichen ~
 a2 <- glmmTMB(lichen ~ 
                 season + 
                 latitude + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -43,7 +43,7 @@ a3 <- glmmTMB(lichen ~
                 subspecies + 
                 season +
                 latitude + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -53,7 +53,7 @@ a4 <- glmmTMB(lichen ~
                 season + 
                 latitude + 
                 symp + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -63,7 +63,7 @@ a5 <- glmmTMB(lichen ~
                 season +  
                 latitude + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -86,7 +86,7 @@ b1 <- glmmTMB(graminoid ~
                 latitude + 
                 symp + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -95,7 +95,7 @@ b1 <- glmmTMB(graminoid ~
 b2 <- glmmTMB(graminoid ~ 
                 season + 
                 latitude + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -105,7 +105,7 @@ b3 <- glmmTMB(graminoid ~
                 subspecies + 
                 season +
                 latitude + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -115,7 +115,7 @@ b4 <- glmmTMB(graminoid ~
                 season + 
                 latitude + 
                 symp + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -125,7 +125,7 @@ b5 <- glmmTMB(graminoid ~
                 season +  
                 latitude + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
@@ -142,60 +142,60 @@ summary(b3)
 ############################# 
 
 ## global model
-c1 <- glmmTMB(shrubs ~ 
+c1 <- glmmTMB(vascular ~ 
                 subspecies + 
                 season + 
                 scale(latitude) + 
                 symp + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
 ## base model
-c2 <- glmmTMB(shrubs ~ 
+c2 <- glmmTMB(vascular ~ 
                 season + 
                 scale(latitude) + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
 ## subspecies
-c3 <- glmmTMB(shrubs ~ 
+c3 <- glmmTMB(vascular ~ 
                 subspecies + 
                 season +
                 scale(latitude)  + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
 ## sympatry model
-c4 <- glmmTMB(shrubs ~ 
+c4 <- glmmTMB(vascular ~ 
                 season + 
                 scale(latitude) + 
                 symp + 
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
 ## temp model
-c5 <- glmmTMB(shrubs ~ 
+c5 <- glmmTMB(vascular ~ 
                 season +  
                 scale(latitude) + 
                 aug_daily_average +
-                (1|data) + (1|authors),
+                (1|data) + (1|author_yr),
               ziformula=~1,
               family=beta_family,
               data = sub)
 
-aic <- AIC(c1, c2, c3, c4, c5)
+aic <- AICc(c1, c2, c3, c4, c5)
 
 data.table(AIC = aic$AIC, 
            delta = abs(min(aic$AIC) - aic$AIC))
 
-
+summary(c5)
 
