@@ -1,6 +1,7 @@
 
-
+library(vegan)
 library(data.table)
+library(tidyr)
 
 ## load data sources
 so <- fread("input/data_source.csv")
@@ -20,6 +21,8 @@ plants$type_plant[plants$type_plant == "liverwort"] <- "other"
 plants$type_plant[plants$type_plant == "rhizome"] <- "other"
 plants$type_plant[plants$type_plant == "sedge"] <- "other"
 
+## load season data 
+sub <- fread("output/clean-data.csv")
 
 ## merge plants database with restricted list of paper used for analyses
 plants <- merge(plants, so[,c("authors", "data_collection", "included", "N")], by = "authors")
@@ -45,16 +48,24 @@ length(unique(plants$authors))
 ## number of genera per plant type
 plants[plant_species != "no_species"][, uniqueN(genus), by = "type_plant"]
 
+
+sub2 <- sub[, .N, by = c("authors", "Subspecies")][, c("N") := NULL]
+
 ### NMDS 
-plants <- plants[plant_species != "no_species"]
-plants_long <- plants[, uniqueN(plant_species), by = c("authors", "plant_species")]
+plants2 <- merge(plants, sub2, by = "authors", allow.cartesian=TRUE)
+
+
+plants2 <- plants2[plant_species != "no_species"]
+plants_long <- plants2[, uniqueN(plant_species), by = c("authors", "Subspecies" ,"plant_species")]
+
+aa <- plants_long[, sum(V1), by = c("plant_species", "authors")]
+
 data_wide <- spread(plants_long, plant_species, V1)
 data_wide[is.na(data_wide)] <- 0
 
 com = data_wide[,2:ncol(data_wide)]
 m_com = as.matrix(com)
 
-library(vegan)
 nmds = metaMDS(m_com, distance = "bray")
 nmds
 plot(nmds)
