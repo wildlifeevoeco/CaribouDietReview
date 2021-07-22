@@ -8,12 +8,12 @@ sub <- fread("output/clean-data.csv")
 png("figures/fig2.png", width = 8000, height = 4000, units = "px", res = 600)
 aa <- ggplot(sub, 
              aes(Subspecies, lichen, fill=Subspecies)) + 
-  geom_jitter(aes(color = Subspecies), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = Subspecies), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
   #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
