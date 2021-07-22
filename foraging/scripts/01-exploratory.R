@@ -7,9 +7,13 @@ so <- fread("input/data_source.csv")
 so <- so[, .N, by = c("data_collection", "authors", "year", "included")]
 so[, .N, by = "data_collection"]
 so <- so[included == 1]
+so$author_yr <- as.factor(paste(so$authors, so$year, sep = " "))
+
 
 ## Input foraging data
 df <- fread("input/foraging.csv")
+df$author_yr <- as.factor(paste(df$authors, df$year, sep = " "))
+
 
 df <- df[authors != "Denryter et al." & 
           authors != "White and Trudell" &
@@ -27,7 +31,6 @@ df[, mean(forbs, na.rm = T), by = "season"]
 ## by season
 df$season[df$season == "calving"] <- "1-Calving"
 df$season[df$season == "summer"] <- "2-Summer"
-df$season[df$season == "rut"] <- "3-Autumn"
 df$season[df$season == "fall"] <- "3-Autumn"
 df$season[df$season == "winter"] <- "4-Winter"
 df$season[df$season == "spring"] <- "5-Spring"
@@ -88,7 +91,7 @@ df$Subspecies[df$Subspecies == "introduced-reindeer"] <- "6-Introduced-Reindeer"
 df <- df[,c("lichen", "graminoid", "shrubs", "forbs", "horsetail", "tree", "moss", "fungi", "vascular",
             "data type", "latitude", "longitude",
                "sympatric_ungulates", "aug_daily_average",
-                 "Subspecies", "season","authors")]
+                 "Subspecies", "season","authors", "author_yr")]
 
 fwrite(df, "output/clean-data.csv")
 
@@ -139,16 +142,20 @@ cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("latitude", "longitud
                          df[,mean(moss, na.rm = T), by = c( "latitude", "longitude","season")], 
                          df[,mean(fungi, na.rm = T), by = c( "latitude", "longitude", "season")],
                          df[,mean(vascular, na.rm = T), by = c( "latitude", "longitude", "season")]),
-                   plant = c(rep(c("lichen"),58),
-                             rep(c("graminoid"), 58), 
-                             rep(c("forbs"), 58), 
-                             rep(c("shrubs"), 58), 
-                             rep(c("horsetail"), 58), 
-                             rep(c("tree"), 58), 
-                             rep(c("moss"), 58), 
-                             rep(c("fungi"), 58),
-                             rep(c("vascular"), 58)))
+                   plant = c(rep(c("lichen"),83),
+                             rep(c("graminoid"), 83), 
+                             rep(c("forbs"), 83), 
+                             rep(c("shrubs"), 83), 
+                             rep(c("horsetail"), 83), 
+                             rep(c("tree"), 83), 
+                             rep(c("moss"), 83), 
+                             rep(c("fungi"), 83),
+                             rep(c("vascular"), 83)))
 
 colnames(cc) <- c("latitude", "longitude",  "season", "meanDiet", "plant")
 
 fwrite(cc, file = "output/latitude.csv")
+
+
+ggplot(cc[plant == "lichen"]) +
+  geom_point(aes(longitude, latitude))
