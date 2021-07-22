@@ -6,24 +6,21 @@ library(gridExtra)
 
 sub <- fread("output/clean-data.csv")
 
+sub[, .N, by = "author_yr"]
+
 
 png("figures/fig1.png", width = 8000, height = 4000, units = "px", res = 600)
 aa <- ggplot(sub, 
        aes(season, lichen, fill=season)) + 
-  geom_jitter(aes(color = season), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = season), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent lichens in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("A)") +
   theme(legend.position = 'none',
@@ -41,20 +38,15 @@ aa <- ggplot(sub,
 
 bb <- ggplot(sub, 
              aes(season, graminoid, fill=season)) + 
-  geom_jitter(aes(color = season), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = season), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent graminoids in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("B)") +
   theme(legend.position = 'none',
@@ -72,20 +64,15 @@ bb <- ggplot(sub,
 
 cc <- ggplot(sub, 
              aes(season, vascular, fill=season)) + 
-  geom_jitter(aes(color = season), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = season), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent vascular plants in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("C)") +
   theme(legend.position = 'none',
