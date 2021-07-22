@@ -16,12 +16,7 @@ aa <- ggplot(sub,
   geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent lichen in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("A)") +
   theme(legend.position = 'none',
@@ -39,20 +34,15 @@ aa <- ggplot(sub,
 
 bb <- ggplot(sub, 
              aes(Subspecies, graminoid, fill=Subspecies)) + 
-  geom_jitter(aes(color = Subspecies), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = Subspecies), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent graminoid in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("B)") +
   theme(legend.position = 'none',
@@ -70,20 +60,15 @@ bb <- ggplot(sub,
 
 cc <- ggplot(sub, 
              aes(Subspecies, vascular, fill=Subspecies)) + 
-  geom_jitter(aes(color = Subspecies), 
+  geom_jitter(color = "black", 
               shape = 16,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(aes(fill = Subspecies), 
+  geom_boxplot(fill = "darkgrey", 
                alpha = 0.5,
                outlier.color = NA) + 
-  #geom_bar(stat = "identity", na.rm=TRUE, color = "black", alpha = 0.75) +
-  #geom_errorbar(aes(ymin = meanDiet, 
-  #                  ymax = meanDiet + sdDiet), width = 0.2) +
   ylab("Percent vascular plants in diet") + xlab("") +
-  scale_fill_viridis_d() +
-  scale_color_viridis_d() +
   ylim(0,100) +
   ggtitle("C)") +
   theme(legend.position = 'none',
