@@ -26,6 +26,13 @@ df <- df[authors != "Denryter et al." &
 
 df <- df[!is.na(season)]
 
+## combine vascular plants
+df$shrubs[is.na(df$shrubs)] <- 0
+df$forbs[is.na(df$forbs)] <- 0
+df$tree[is.na(df$tree)] <- 0
+df$vascular <-  df$shrubs + df$forbs + df$tree
+
+
 df[, mean(forbs, na.rm = T), by = "season"]
 
 ## by season
@@ -35,11 +42,6 @@ df$season[df$season == "fall"] <- "3-Autumn"
 df$season[df$season == "winter"] <- "4-Winter"
 df$season[df$season == "spring"] <- "5-Spring"
 
-## combine vascular plants
-df$shrubs[is.na(df$shrubs)] <- 0
-df$forbs[is.na(df$forbs)] <- 0
-df$tree[is.na(df$tree)] <- 0
-df$vascular <-  df$shrubs + df$forbs + df$tree
 
 aa <- data.table(rbind(df[,mean(lichen, na.rm = T), by = "season"], 
                  df[,mean(graminoid, na.rm = T), by = "season"], 
@@ -133,26 +135,26 @@ fwrite(bb, "output/subspecies-summary.csv")
 ############################## 
 
 
-cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("latitude", "longitude", "season")], 
-                         df[,mean(graminoid, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(forbs, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(shrubs, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(horsetail, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(tree, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(moss, na.rm = T), by = c( "latitude", "longitude","season")], 
-                         df[,mean(fungi, na.rm = T), by = c( "latitude", "longitude", "season")],
-                         df[,mean(vascular, na.rm = T), by = c( "latitude", "longitude", "season")]),
-                   plant = c(rep(c("lichen"),83),
-                             rep(c("graminoid"), 83), 
-                             rep(c("forbs"), 83), 
-                             rep(c("shrubs"), 83), 
-                             rep(c("horsetail"), 83), 
-                             rep(c("tree"), 83), 
-                             rep(c("moss"), 83), 
-                             rep(c("fungi"), 83),
-                             rep(c("vascular"), 83)))
+cc <- data.table(rbind(df[,mean(lichen, na.rm = T), by = c("latitude", "longitude", "season", "Subspecies")], 
+                         df[,mean(graminoid, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(forbs, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(shrubs, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(horsetail, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(tree, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(moss, na.rm = T), by = c( "latitude", "longitude","season", "Subspecies")], 
+                         df[,mean(fungi, na.rm = T), by = c( "latitude", "longitude", "season", "Subspecies")],
+                         df[,mean(vascular, na.rm = T), by = c( "latitude", "longitude", "season", "Subspecies")]),
+                   plant = c(rep(c("lichen"),84),
+                             rep(c("graminoid"), 84), 
+                             rep(c("forbs"), 84), 
+                             rep(c("shrubs"), 84), 
+                             rep(c("horsetail"), 84), 
+                             rep(c("tree"), 84), 
+                             rep(c("moss"), 84), 
+                             rep(c("fungi"), 84),
+                             rep(c("vascular"), 84)))
 
-colnames(cc) <- c("latitude", "longitude",  "season", "meanDiet", "plant")
+colnames(cc) <- c("latitude", "longitude",  "season", "ecotype" ,"meanDiet", "plant")
 
 fwrite(cc, file = "output/latitude.csv")
 
