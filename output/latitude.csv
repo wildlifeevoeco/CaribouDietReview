@@ -1,0 +1,757 @@
+latitude,longitude,season,ecotype,meanDiet,plant
+61.43,143.25,2-Summer,2-Barren Ground,20,lichen
+78,-15,4-Winter,5-Reindeer,1.3,lichen
+78,-15,2-Summer,5-Reindeer,0.2,lichen
+78,-15,5-Spring,5-Reindeer,2.4,lichen
+63.3,150.3,5-Spring,2-Barren Ground,38,lichen
+63.3,150.3,2-Summer,2-Barren Ground,28,lichen
+63.3,150.3,3-Autumn,2-Barren Ground,68,lichen
+63.3,150.3,4-Winter,2-Barren Ground,66,lichen
+65.285,164.675,5-Spring,6-Introduced-Reindeer,61.525,lichen
+65.285,164.675,1-Calving,6-Introduced-Reindeer,41.1,lichen
+65.285,164.675,2-Summer,6-Introduced-Reindeer,45.0666666666667,lichen
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,75,lichen
+65.285,164.675,4-Winter,6-Introduced-Reindeer,67.5666666666667,lichen
+62,137,4-Winter,4-Woodland,65.3,lichen
+69,150,4-Winter,2-Barren Ground,61.3333333333333,lichen
+66,160,4-Winter,2-Barren Ground,68.3333333333333,lichen
+62,138,4-Winter,4-Woodland,70,lichen
+63,150,4-Winter,2-Barren Ground,65.5,lichen
+69,117,4-Winter,2-Barren Ground,90,lichen
+66,115,4-Winter,2-Barren Ground,53,lichen
+67,52,4-Winter,2-Barren Ground,75,lichen
+67,163,4-Winter,2-Barren Ground,,lichen
+65.285,164.675,4-Winter,2-Barren Ground,,lichen
+67.1,156,3-Autumn,2-Barren Ground,65.9,lichen
+67.1,156,4-Winter,2-Barren Ground,71.125,lichen
+67.1,152,4-Winter,3-Mountain,90.2666666666667,lichen
+67.8,163.5,2-Summer,4-Woodland,30.5,lichen
+67.8,163.5,4-Winter,4-Woodland,55.5,lichen
+71.11,179.38,2-Summer,5-Reindeer,0.005,lichen
+71.11,179.38,3-Autumn,5-Reindeer,0.01,lichen
+71.11,179.38,4-Winter,5-Reindeer,9.65,lichen
+69,-26,3-Autumn,5-Reindeer,53.9,lichen
+69,-26,4-Winter,5-Reindeer,53.2,lichen
+72.5,122,4-Winter,1-Peary,2.725,lichen
+72.5,122,5-Spring,1-Peary,0,lichen
+72.5,122,1-Calving,1-Peary,0,lichen
+72.5,122,2-Summer,1-Peary,0,lichen
+72.5,122,3-Autumn,1-Peary,0,lichen
+69,-23,3-Autumn,5-Reindeer,14.8,lichen
+69,-23,4-Winter,5-Reindeer,22.425,lichen
+69.3,-27,4-Winter,5-Reindeer,41.7,lichen
+69.3,-27,5-Spring,5-Reindeer,45.1,lichen
+51.39,117.52,4-Winter,4-Woodland,45.4,lichen
+71.11,179.38,5-Spring,5-Reindeer,0,lichen
+48,55,5-Spring,4-Woodland,43.25,lichen
+48,55,2-Summer,4-Woodland,29.8,lichen
+48,55,3-Autumn,4-Woodland,57.6666666666667,lichen
+48,55,4-Winter,4-Woodland,51.075,lichen
+79.45,-20,3-Autumn,5-Reindeer,0.3,lichen
+79.45,-20,4-Winter,5-Reindeer,0.833333333333333,lichen
+79.45,-20,2-Summer,5-Reindeer,1.7,lichen
+77.9,-15,4-Winter,5-Reindeer,2,lichen
+77.9,-15,2-Summer,5-Reindeer,20,lichen
+,,4-Winter,2-Barren Ground,66.7,lichen
+,,5-Spring,2-Barren Ground,37.3,lichen
+,,1-Calving,2-Barren Ground,6.6,lichen
+,,2-Summer,2-Barren Ground,35.2,lichen
+,,3-Autumn,2-Barren Ground,59.1,lichen
+48.56,66.07,2-Summer,4-Woodland,0,lichen
+73,120,2-Summer,1-Peary,0,lichen
+73,120,3-Autumn,1-Peary,2.22,lichen
+73,120,4-Winter,1-Peary,1.34,lichen
+73,120,5-Spring,1-Peary,1.075,lichen
+73.2467,93.5193,5-Spring,1-Peary,4,lichen
+72.6766,99.4692,5-Spring,1-Peary,15,lichen
+70.34,128,5-Spring,1-Peary,10,lichen
+75.3,111.3,5-Spring,1-Peary,11,lichen
+76.7775,118.9721,5-Spring,1-Peary,2,lichen
+60.03,-7.25,4-Winter,5-Reindeer,54.55,lichen
+60.03,-7.25,5-Spring,5-Reindeer,34.1,lichen
+60.03,-7.25,1-Calving,5-Reindeer,31.2,lichen
+60.03,-7.25,2-Summer,5-Reindeer,25.1,lichen
+60.03,-7.25,3-Autumn,5-Reindeer,42.65,lichen
+48.5,53,1-Calving,4-Woodland,10,lichen
+48.5,53,2-Summer,4-Woodland,24,lichen
+48.5,53,3-Autumn,4-Woodland,40,lichen
+48.5,53,4-Winter,4-Woodland,56,lichen
+64,124,4-Winter,2-Barren Ground,68.5,lichen
+69.58,-26.46,4-Winter,5-Reindeer,46.35,lichen
+69.58,-26.46,2-Summer,5-Reindeer,42.58,lichen
+68.8,-27,4-Winter,5-Reindeer,33.62,lichen
+68.8,-27,2-Summer,5-Reindeer,32.95,lichen
+69.48,-26.38,2-Summer,5-Reindeer,37.4,lichen
+69,-21,2-Summer,5-Reindeer,10.8,lichen
+61.43,143.25,2-Summer,2-Barren Ground,15,graminoid
+78,-15,4-Winter,5-Reindeer,63.7,graminoid
+78,-15,2-Summer,5-Reindeer,60.7,graminoid
+78,-15,5-Spring,5-Reindeer,32.3,graminoid
+63.3,150.3,5-Spring,2-Barren Ground,7,graminoid
+63.3,150.3,2-Summer,2-Barren Ground,5,graminoid
+63.3,150.3,3-Autumn,2-Barren Ground,4,graminoid
+63.3,150.3,4-Winter,2-Barren Ground,4,graminoid
+65.285,164.675,5-Spring,6-Introduced-Reindeer,11.85,graminoid
+65.285,164.675,1-Calving,6-Introduced-Reindeer,18.24,graminoid
+65.285,164.675,2-Summer,6-Introduced-Reindeer,19.9,graminoid
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,10.15,graminoid
+65.285,164.675,4-Winter,6-Introduced-Reindeer,9.16666666666667,graminoid
+62,137,4-Winter,4-Woodland,7.4,graminoid
+69,150,4-Winter,2-Barren Ground,7.33333333333333,graminoid
+66,160,4-Winter,2-Barren Ground,6,graminoid
+62,138,4-Winter,4-Woodland,2.25,graminoid
+63,150,4-Winter,2-Barren Ground,10,graminoid
+69,117,4-Winter,2-Barren Ground,1,graminoid
+66,115,4-Winter,2-Barren Ground,10,graminoid
+67,52,4-Winter,2-Barren Ground,5,graminoid
+67,163,4-Winter,2-Barren Ground,,graminoid
+65.285,164.675,4-Winter,2-Barren Ground,,graminoid
+67.1,156,3-Autumn,2-Barren Ground,4.2,graminoid
+67.1,156,4-Winter,2-Barren Ground,6,graminoid
+67.1,152,4-Winter,3-Mountain,1.96666666666667,graminoid
+67.8,163.5,2-Summer,4-Woodland,29.9,graminoid
+67.8,163.5,4-Winter,4-Woodland,13,graminoid
+71.11,179.38,2-Summer,5-Reindeer,11.52,graminoid
+71.11,179.38,3-Autumn,5-Reindeer,8.218,graminoid
+71.11,179.38,4-Winter,5-Reindeer,12.335,graminoid
+69,-26,3-Autumn,5-Reindeer,10.1,graminoid
+69,-26,4-Winter,5-Reindeer,6.3,graminoid
+72.5,122,4-Winter,1-Peary,24.675,graminoid
+72.5,122,5-Spring,1-Peary,11.3,graminoid
+72.5,122,1-Calving,1-Peary,23,graminoid
+72.5,122,2-Summer,1-Peary,10,graminoid
+72.5,122,3-Autumn,1-Peary,24.3666666666667,graminoid
+69,-23,3-Autumn,5-Reindeer,60.9,graminoid
+69,-23,4-Winter,5-Reindeer,44.925,graminoid
+69.3,-27,4-Winter,5-Reindeer,10,graminoid
+69.3,-27,5-Spring,5-Reindeer,18.3,graminoid
+51.39,117.52,4-Winter,4-Woodland,,graminoid
+71.11,179.38,5-Spring,5-Reindeer,0.342,graminoid
+48,55,5-Spring,4-Woodland,15.25,graminoid
+48,55,2-Summer,4-Woodland,11.6,graminoid
+48,55,3-Autumn,4-Woodland,1.8,graminoid
+48,55,4-Winter,4-Woodland,9.425,graminoid
+79.45,-20,3-Autumn,5-Reindeer,61.65,graminoid
+79.45,-20,4-Winter,5-Reindeer,26.2666666666667,graminoid
+79.45,-20,2-Summer,5-Reindeer,39.7,graminoid
+77.9,-15,4-Winter,5-Reindeer,41,graminoid
+77.9,-15,2-Summer,5-Reindeer,42,graminoid
+,,4-Winter,2-Barren Ground,3.2,graminoid
+,,5-Spring,2-Barren Ground,55.5,graminoid
+,,1-Calving,2-Barren Ground,38.85,graminoid
+,,2-Summer,2-Barren Ground,1.3,graminoid
+,,3-Autumn,2-Barren Ground,1.9,graminoid
+48.56,66.07,2-Summer,4-Woodland,0,graminoid
+73,120,2-Summer,1-Peary,19.76,graminoid
+73,120,3-Autumn,1-Peary,19.155,graminoid
+73,120,4-Winter,1-Peary,33.33333333,graminoid
+73,120,5-Spring,1-Peary,24.896666665,graminoid
+73.2467,93.5193,5-Spring,1-Peary,40,graminoid
+72.6766,99.4692,5-Spring,1-Peary,20,graminoid
+70.34,128,5-Spring,1-Peary,15,graminoid
+75.3,111.3,5-Spring,1-Peary,47,graminoid
+76.7775,118.9721,5-Spring,1-Peary,57,graminoid
+60.03,-7.25,4-Winter,5-Reindeer,27.1,graminoid
+60.03,-7.25,5-Spring,5-Reindeer,21.8,graminoid
+60.03,-7.25,1-Calving,5-Reindeer,25.1,graminoid
+60.03,-7.25,2-Summer,5-Reindeer,49,graminoid
+60.03,-7.25,3-Autumn,5-Reindeer,42.5,graminoid
+48.5,53,1-Calving,4-Woodland,51,graminoid
+48.5,53,2-Summer,4-Woodland,10,graminoid
+48.5,53,3-Autumn,4-Woodland,10,graminoid
+48.5,53,4-Winter,4-Woodland,7,graminoid
+64,124,4-Winter,2-Barren Ground,,graminoid
+69.58,-26.46,4-Winter,5-Reindeer,20.93,graminoid
+69.58,-26.46,2-Summer,5-Reindeer,30.2,graminoid
+68.8,-27,4-Winter,5-Reindeer,32.76,graminoid
+68.8,-27,2-Summer,5-Reindeer,36.19,graminoid
+69.48,-26.38,2-Summer,5-Reindeer,20.94,graminoid
+69,-21,2-Summer,5-Reindeer,16.7,graminoid
+61.43,143.25,2-Summer,2-Barren Ground,7,forbs
+78,-15,4-Winter,5-Reindeer,2.6,forbs
+78,-15,2-Summer,5-Reindeer,19.6,forbs
+78,-15,5-Spring,5-Reindeer,4,forbs
+63.3,150.3,5-Spring,2-Barren Ground,0,forbs
+63.3,150.3,2-Summer,2-Barren Ground,0,forbs
+63.3,150.3,3-Autumn,2-Barren Ground,0,forbs
+63.3,150.3,4-Winter,2-Barren Ground,0,forbs
+65.285,164.675,5-Spring,6-Introduced-Reindeer,1.575,forbs
+65.285,164.675,1-Calving,6-Introduced-Reindeer,1.52,forbs
+65.285,164.675,2-Summer,6-Introduced-Reindeer,2.73333333333333,forbs
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,2,forbs
+65.285,164.675,4-Winter,6-Introduced-Reindeer,4.04333333333333,forbs
+62,137,4-Winter,4-Woodland,4.1,forbs
+69,150,4-Winter,2-Barren Ground,4.66666666666667,forbs
+66,160,4-Winter,2-Barren Ground,1.5,forbs
+62,138,4-Winter,4-Woodland,4,forbs
+63,150,4-Winter,2-Barren Ground,0,forbs
+69,117,4-Winter,2-Barren Ground,1,forbs
+66,115,4-Winter,2-Barren Ground,4,forbs
+67,52,4-Winter,2-Barren Ground,1,forbs
+67,163,4-Winter,2-Barren Ground,0,forbs
+65.285,164.675,4-Winter,2-Barren Ground,0,forbs
+67.1,156,3-Autumn,2-Barren Ground,5,forbs
+67.1,156,4-Winter,2-Barren Ground,3.3,forbs
+67.1,152,4-Winter,3-Mountain,0.766666666666667,forbs
+67.8,163.5,2-Summer,4-Woodland,4.5,forbs
+67.8,163.5,4-Winter,4-Woodland,9.6,forbs
+71.11,179.38,2-Summer,5-Reindeer,0.0605,forbs
+71.11,179.38,3-Autumn,5-Reindeer,0.0275,forbs
+71.11,179.38,4-Winter,5-Reindeer,0.0325,forbs
+69,-26,3-Autumn,5-Reindeer,0,forbs
+69,-26,4-Winter,5-Reindeer,0,forbs
+72.5,122,4-Winter,1-Peary,0,forbs
+72.5,122,5-Spring,1-Peary,0,forbs
+72.5,122,1-Calving,1-Peary,0,forbs
+72.5,122,2-Summer,1-Peary,0,forbs
+72.5,122,3-Autumn,1-Peary,0,forbs
+69,-23,3-Autumn,5-Reindeer,0,forbs
+69,-23,4-Winter,5-Reindeer,2.1025,forbs
+69.3,-27,4-Winter,5-Reindeer,0,forbs
+69.3,-27,5-Spring,5-Reindeer,0,forbs
+51.39,117.52,4-Winter,4-Woodland,0,forbs
+71.11,179.38,5-Spring,5-Reindeer,0.1,forbs
+48,55,5-Spring,4-Woodland,0,forbs
+48,55,2-Summer,4-Woodland,0,forbs
+48,55,3-Autumn,4-Woodland,0,forbs
+48,55,4-Winter,4-Woodland,0,forbs
+79.45,-20,3-Autumn,5-Reindeer,58.7,forbs
+79.45,-20,4-Winter,5-Reindeer,44.1333333333333,forbs
+79.45,-20,2-Summer,5-Reindeer,60.7,forbs
+77.9,-15,4-Winter,5-Reindeer,2,forbs
+77.9,-15,2-Summer,5-Reindeer,8,forbs
+,,4-Winter,2-Barren Ground,0,forbs
+,,5-Spring,2-Barren Ground,0,forbs
+,,1-Calving,2-Barren Ground,0,forbs
+,,2-Summer,2-Barren Ground,0,forbs
+,,3-Autumn,2-Barren Ground,0,forbs
+48.56,66.07,2-Summer,4-Woodland,1,forbs
+73,120,2-Summer,1-Peary,7.66,forbs
+73,120,3-Autumn,1-Peary,4.84,forbs
+73,120,4-Winter,1-Peary,19.75666667,forbs
+73,120,5-Spring,1-Peary,32.1575,forbs
+73.2467,93.5193,5-Spring,1-Peary,20,forbs
+72.6766,99.4692,5-Spring,1-Peary,36,forbs
+70.34,128,5-Spring,1-Peary,2,forbs
+75.3,111.3,5-Spring,1-Peary,5,forbs
+76.7775,118.9721,5-Spring,1-Peary,0,forbs
+60.03,-7.25,4-Winter,5-Reindeer,0,forbs
+60.03,-7.25,5-Spring,5-Reindeer,0,forbs
+60.03,-7.25,1-Calving,5-Reindeer,0.1,forbs
+60.03,-7.25,2-Summer,5-Reindeer,7.6,forbs
+60.03,-7.25,3-Autumn,5-Reindeer,0.55,forbs
+48.5,53,1-Calving,4-Woodland,12,forbs
+48.5,53,2-Summer,4-Woodland,8,forbs
+48.5,53,3-Autumn,4-Woodland,12,forbs
+48.5,53,4-Winter,4-Woodland,0,forbs
+64,124,4-Winter,2-Barren Ground,0,forbs
+69.58,-26.46,4-Winter,5-Reindeer,0,forbs
+69.58,-26.46,2-Summer,5-Reindeer,0,forbs
+68.8,-27,4-Winter,5-Reindeer,0,forbs
+68.8,-27,2-Summer,5-Reindeer,0,forbs
+69.48,-26.38,2-Summer,5-Reindeer,0,forbs
+69,-21,2-Summer,5-Reindeer,48.5,forbs
+61.43,143.25,2-Summer,2-Barren Ground,38,shrubs
+78,-15,4-Winter,5-Reindeer,11.5,shrubs
+78,-15,2-Summer,5-Reindeer,8.1,shrubs
+78,-15,5-Spring,5-Reindeer,28.2,shrubs
+63.3,150.3,5-Spring,2-Barren Ground,52,shrubs
+63.3,150.3,2-Summer,2-Barren Ground,58,shrubs
+63.3,150.3,3-Autumn,2-Barren Ground,11,shrubs
+63.3,150.3,4-Winter,2-Barren Ground,11,shrubs
+65.285,164.675,5-Spring,6-Introduced-Reindeer,8.325,shrubs
+65.285,164.675,1-Calving,6-Introduced-Reindeer,31.2,shrubs
+65.285,164.675,2-Summer,6-Introduced-Reindeer,22.5,shrubs
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,6.4,shrubs
+65.285,164.675,4-Winter,6-Introduced-Reindeer,7.13333333333333,shrubs
+62,137,4-Winter,4-Woodland,6.4,shrubs
+69,150,4-Winter,2-Barren Ground,8.16666666666667,shrubs
+66,160,4-Winter,2-Barren Ground,13.3333333333333,shrubs
+62,138,4-Winter,4-Woodland,7.25,shrubs
+63,150,4-Winter,2-Barren Ground,10,shrubs
+69,117,4-Winter,2-Barren Ground,4,shrubs
+66,115,4-Winter,2-Barren Ground,16,shrubs
+67,52,4-Winter,2-Barren Ground,6,shrubs
+67,163,4-Winter,2-Barren Ground,0,shrubs
+65.285,164.675,4-Winter,2-Barren Ground,0,shrubs
+67.1,156,3-Autumn,2-Barren Ground,11.3,shrubs
+67.1,156,4-Winter,2-Barren Ground,7.925,shrubs
+67.1,152,4-Winter,3-Mountain,2.83333333333333,shrubs
+67.8,163.5,2-Summer,4-Woodland,23.3,shrubs
+67.8,163.5,4-Winter,4-Woodland,8,shrubs
+71.11,179.38,2-Summer,5-Reindeer,21.6365,shrubs
+71.11,179.38,3-Autumn,5-Reindeer,19.073,shrubs
+71.11,179.38,4-Winter,5-Reindeer,24.9845,shrubs
+69,-26,3-Autumn,5-Reindeer,16.5,shrubs
+69,-26,4-Winter,5-Reindeer,22.9,shrubs
+72.5,122,4-Winter,1-Peary,30.45,shrubs
+72.5,122,5-Spring,1-Peary,42.9,shrubs
+72.5,122,1-Calving,1-Peary,54.3,shrubs
+72.5,122,2-Summer,1-Peary,75.35,shrubs
+72.5,122,3-Autumn,1-Peary,37.1333333333333,shrubs
+69,-23,3-Autumn,5-Reindeer,25.1,shrubs
+69,-23,4-Winter,5-Reindeer,24.1275,shrubs
+69.3,-27,4-Winter,5-Reindeer,33.7,shrubs
+69.3,-27,5-Spring,5-Reindeer,22.2,shrubs
+51.39,117.52,4-Winter,4-Woodland,0,shrubs
+71.11,179.38,5-Spring,5-Reindeer,0.48,shrubs
+48,55,5-Spring,4-Woodland,20.05,shrubs
+48,55,2-Summer,4-Woodland,32.14,shrubs
+48,55,3-Autumn,4-Woodland,13,shrubs
+48,55,4-Winter,4-Woodland,15.8,shrubs
+79.45,-20,3-Autumn,5-Reindeer,8.4,shrubs
+79.45,-20,4-Winter,5-Reindeer,11.2,shrubs
+79.45,-20,2-Summer,5-Reindeer,15.8,shrubs
+77.9,-15,4-Winter,5-Reindeer,10,shrubs
+77.9,-15,2-Summer,5-Reindeer,7,shrubs
+,,4-Winter,2-Barren Ground,1.2,shrubs
+,,5-Spring,2-Barren Ground,0.2,shrubs
+,,1-Calving,2-Barren Ground,49.75,shrubs
+,,2-Summer,2-Barren Ground,58.2,shrubs
+,,3-Autumn,2-Barren Ground,0.7,shrubs
+48.56,66.07,2-Summer,4-Woodland,2,shrubs
+73,120,2-Summer,1-Peary,50.81,shrubs
+73,120,3-Autumn,1-Peary,61.89,shrubs
+73,120,4-Winter,1-Peary,13.84333333,shrubs
+73,120,5-Spring,1-Peary,7.6608333335,shrubs
+73.2467,93.5193,5-Spring,1-Peary,9,shrubs
+72.6766,99.4692,5-Spring,1-Peary,10,shrubs
+70.34,128,5-Spring,1-Peary,0,shrubs
+75.3,111.3,5-Spring,1-Peary,1,shrubs
+76.7775,118.9721,5-Spring,1-Peary,0,shrubs
+60.03,-7.25,4-Winter,5-Reindeer,10.45,shrubs
+60.03,-7.25,5-Spring,5-Reindeer,22,shrubs
+60.03,-7.25,1-Calving,5-Reindeer,25,shrubs
+60.03,-7.25,2-Summer,5-Reindeer,13.3,shrubs
+60.03,-7.25,3-Autumn,5-Reindeer,7.2,shrubs
+48.5,53,1-Calving,4-Woodland,15,shrubs
+48.5,53,2-Summer,4-Woodland,23,shrubs
+48.5,53,3-Autumn,4-Woodland,21,shrubs
+48.5,53,4-Winter,4-Woodland,26,shrubs
+64,124,4-Winter,2-Barren Ground,5.2,shrubs
+69.58,-26.46,4-Winter,5-Reindeer,26.25,shrubs
+69.58,-26.46,2-Summer,5-Reindeer,24.92,shrubs
+68.8,-27,4-Winter,5-Reindeer,30.8,shrubs
+68.8,-27,2-Summer,5-Reindeer,28.4,shrubs
+69.48,-26.38,2-Summer,5-Reindeer,37.85,shrubs
+69,-21,2-Summer,5-Reindeer,17.6,shrubs
+61.43,143.25,2-Summer,2-Barren Ground,0,horsetail
+78,-15,4-Winter,5-Reindeer,1.3,horsetail
+78,-15,2-Summer,5-Reindeer,2.4,horsetail
+78,-15,5-Spring,5-Reindeer,0.3,horsetail
+63.3,150.3,5-Spring,2-Barren Ground,1,horsetail
+63.3,150.3,2-Summer,2-Barren Ground,1,horsetail
+63.3,150.3,3-Autumn,2-Barren Ground,2,horsetail
+63.3,150.3,4-Winter,2-Barren Ground,1,horsetail
+65.285,164.675,5-Spring,6-Introduced-Reindeer,6.6,horsetail
+65.285,164.675,1-Calving,6-Introduced-Reindeer,4.1,horsetail
+65.285,164.675,2-Summer,6-Introduced-Reindeer,3.86666666666667,horsetail
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,2.85,horsetail
+65.285,164.675,4-Winter,6-Introduced-Reindeer,3.95,horsetail
+62,137,4-Winter,4-Woodland,,horsetail
+69,150,4-Winter,2-Barren Ground,,horsetail
+66,160,4-Winter,2-Barren Ground,,horsetail
+62,138,4-Winter,4-Woodland,,horsetail
+63,150,4-Winter,2-Barren Ground,,horsetail
+69,117,4-Winter,2-Barren Ground,,horsetail
+66,115,4-Winter,2-Barren Ground,,horsetail
+67,52,4-Winter,2-Barren Ground,,horsetail
+67,163,4-Winter,2-Barren Ground,,horsetail
+65.285,164.675,4-Winter,2-Barren Ground,,horsetail
+67.1,156,3-Autumn,2-Barren Ground,,horsetail
+67.1,156,4-Winter,2-Barren Ground,,horsetail
+67.1,152,4-Winter,3-Mountain,,horsetail
+67.8,163.5,2-Summer,4-Woodland,,horsetail
+67.8,163.5,4-Winter,4-Woodland,,horsetail
+71.11,179.38,2-Summer,5-Reindeer,0.013,horsetail
+71.11,179.38,3-Autumn,5-Reindeer,0.026,horsetail
+71.11,179.38,4-Winter,5-Reindeer,0,horsetail
+69,-26,3-Autumn,5-Reindeer,,horsetail
+69,-26,4-Winter,5-Reindeer,,horsetail
+72.5,122,4-Winter,1-Peary,,horsetail
+72.5,122,5-Spring,1-Peary,,horsetail
+72.5,122,1-Calving,1-Peary,,horsetail
+72.5,122,2-Summer,1-Peary,,horsetail
+72.5,122,3-Autumn,1-Peary,,horsetail
+69,-23,3-Autumn,5-Reindeer,,horsetail
+69,-23,4-Winter,5-Reindeer,,horsetail
+69.3,-27,4-Winter,5-Reindeer,,horsetail
+69.3,-27,5-Spring,5-Reindeer,,horsetail
+51.39,117.52,4-Winter,4-Woodland,,horsetail
+71.11,179.38,5-Spring,5-Reindeer,0,horsetail
+48,55,5-Spring,4-Woodland,,horsetail
+48,55,2-Summer,4-Woodland,,horsetail
+48,55,3-Autumn,4-Woodland,,horsetail
+48,55,4-Winter,4-Woodland,,horsetail
+79.45,-20,3-Autumn,5-Reindeer,16.75,horsetail
+79.45,-20,4-Winter,5-Reindeer,0,horsetail
+79.45,-20,2-Summer,5-Reindeer,3.7,horsetail
+77.9,-15,4-Winter,5-Reindeer,,horsetail
+77.9,-15,2-Summer,5-Reindeer,,horsetail
+,,4-Winter,2-Barren Ground,,horsetail
+,,5-Spring,2-Barren Ground,,horsetail
+,,1-Calving,2-Barren Ground,,horsetail
+,,2-Summer,2-Barren Ground,,horsetail
+,,3-Autumn,2-Barren Ground,,horsetail
+48.56,66.07,2-Summer,4-Woodland,36,horsetail
+73,120,2-Summer,1-Peary,,horsetail
+73,120,3-Autumn,1-Peary,,horsetail
+73,120,4-Winter,1-Peary,,horsetail
+73,120,5-Spring,1-Peary,,horsetail
+73.2467,93.5193,5-Spring,1-Peary,,horsetail
+72.6766,99.4692,5-Spring,1-Peary,,horsetail
+70.34,128,5-Spring,1-Peary,,horsetail
+75.3,111.3,5-Spring,1-Peary,,horsetail
+76.7775,118.9721,5-Spring,1-Peary,,horsetail
+60.03,-7.25,4-Winter,5-Reindeer,,horsetail
+60.03,-7.25,5-Spring,5-Reindeer,,horsetail
+60.03,-7.25,1-Calving,5-Reindeer,,horsetail
+60.03,-7.25,2-Summer,5-Reindeer,,horsetail
+60.03,-7.25,3-Autumn,5-Reindeer,,horsetail
+48.5,53,1-Calving,4-Woodland,,horsetail
+48.5,53,2-Summer,4-Woodland,,horsetail
+48.5,53,3-Autumn,4-Woodland,,horsetail
+48.5,53,4-Winter,4-Woodland,,horsetail
+64,124,4-Winter,2-Barren Ground,,horsetail
+69.58,-26.46,4-Winter,5-Reindeer,,horsetail
+69.58,-26.46,2-Summer,5-Reindeer,,horsetail
+68.8,-27,4-Winter,5-Reindeer,,horsetail
+68.8,-27,2-Summer,5-Reindeer,,horsetail
+69.48,-26.38,2-Summer,5-Reindeer,,horsetail
+69,-21,2-Summer,5-Reindeer,,horsetail
+61.43,143.25,2-Summer,2-Barren Ground,0,tree
+78,-15,4-Winter,5-Reindeer,0,tree
+78,-15,2-Summer,5-Reindeer,0,tree
+78,-15,5-Spring,5-Reindeer,0,tree
+63.3,150.3,5-Spring,2-Barren Ground,0,tree
+63.3,150.3,2-Summer,2-Barren Ground,0,tree
+63.3,150.3,3-Autumn,2-Barren Ground,0,tree
+63.3,150.3,4-Winter,2-Barren Ground,0,tree
+65.285,164.675,5-Spring,6-Introduced-Reindeer,0,tree
+65.285,164.675,1-Calving,6-Introduced-Reindeer,0,tree
+65.285,164.675,2-Summer,6-Introduced-Reindeer,0,tree
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,0,tree
+65.285,164.675,4-Winter,6-Introduced-Reindeer,0,tree
+62,137,4-Winter,4-Woodland,0.1,tree
+69,150,4-Winter,2-Barren Ground,0,tree
+66,160,4-Winter,2-Barren Ground,0,tree
+62,138,4-Winter,4-Woodland,0,tree
+63,150,4-Winter,2-Barren Ground,0,tree
+69,117,4-Winter,2-Barren Ground,0,tree
+66,115,4-Winter,2-Barren Ground,0,tree
+67,52,4-Winter,2-Barren Ground,0,tree
+67,163,4-Winter,2-Barren Ground,0,tree
+65.285,164.675,4-Winter,2-Barren Ground,0,tree
+67.1,156,3-Autumn,2-Barren Ground,0,tree
+67.1,156,4-Winter,2-Barren Ground,0,tree
+67.1,152,4-Winter,3-Mountain,0,tree
+67.8,163.5,2-Summer,4-Woodland,0,tree
+67.8,163.5,4-Winter,4-Woodland,0,tree
+71.11,179.38,2-Summer,5-Reindeer,0,tree
+71.11,179.38,3-Autumn,5-Reindeer,0,tree
+71.11,179.38,4-Winter,5-Reindeer,0,tree
+69,-26,3-Autumn,5-Reindeer,0,tree
+69,-26,4-Winter,5-Reindeer,0,tree
+72.5,122,4-Winter,1-Peary,0,tree
+72.5,122,5-Spring,1-Peary,0,tree
+72.5,122,1-Calving,1-Peary,0,tree
+72.5,122,2-Summer,1-Peary,0,tree
+72.5,122,3-Autumn,1-Peary,0,tree
+69,-23,3-Autumn,5-Reindeer,0,tree
+69,-23,4-Winter,5-Reindeer,0,tree
+69.3,-27,4-Winter,5-Reindeer,0,tree
+69.3,-27,5-Spring,5-Reindeer,0,tree
+51.39,117.52,4-Winter,4-Woodland,25.175,tree
+71.11,179.38,5-Spring,5-Reindeer,0,tree
+48,55,5-Spring,4-Woodland,0,tree
+48,55,2-Summer,4-Woodland,0,tree
+48,55,3-Autumn,4-Woodland,0,tree
+48,55,4-Winter,4-Woodland,0,tree
+79.45,-20,3-Autumn,5-Reindeer,0,tree
+79.45,-20,4-Winter,5-Reindeer,0,tree
+79.45,-20,2-Summer,5-Reindeer,0,tree
+77.9,-15,4-Winter,5-Reindeer,0,tree
+77.9,-15,2-Summer,5-Reindeer,0,tree
+,,4-Winter,2-Barren Ground,0,tree
+,,5-Spring,2-Barren Ground,0,tree
+,,1-Calving,2-Barren Ground,0,tree
+,,2-Summer,2-Barren Ground,0,tree
+,,3-Autumn,2-Barren Ground,0,tree
+48.56,66.07,2-Summer,4-Woodland,59,tree
+73,120,2-Summer,1-Peary,0,tree
+73,120,3-Autumn,1-Peary,0,tree
+73,120,4-Winter,1-Peary,0,tree
+73,120,5-Spring,1-Peary,0,tree
+73.2467,93.5193,5-Spring,1-Peary,0,tree
+72.6766,99.4692,5-Spring,1-Peary,0,tree
+70.34,128,5-Spring,1-Peary,0,tree
+75.3,111.3,5-Spring,1-Peary,0,tree
+76.7775,118.9721,5-Spring,1-Peary,0,tree
+60.03,-7.25,4-Winter,5-Reindeer,0,tree
+60.03,-7.25,5-Spring,5-Reindeer,0,tree
+60.03,-7.25,1-Calving,5-Reindeer,0,tree
+60.03,-7.25,2-Summer,5-Reindeer,0,tree
+60.03,-7.25,3-Autumn,5-Reindeer,0,tree
+48.5,53,1-Calving,4-Woodland,0,tree
+48.5,53,2-Summer,4-Woodland,0,tree
+48.5,53,3-Autumn,4-Woodland,0,tree
+48.5,53,4-Winter,4-Woodland,4,tree
+64,124,4-Winter,2-Barren Ground,11.9,tree
+69.58,-26.46,4-Winter,5-Reindeer,0,tree
+69.58,-26.46,2-Summer,5-Reindeer,0,tree
+68.8,-27,4-Winter,5-Reindeer,0,tree
+68.8,-27,2-Summer,5-Reindeer,0,tree
+69.48,-26.38,2-Summer,5-Reindeer,0,tree
+69,-21,2-Summer,5-Reindeer,0,tree
+61.43,143.25,2-Summer,2-Barren Ground,20,moss
+78,-15,4-Winter,5-Reindeer,10.6,moss
+78,-15,2-Summer,5-Reindeer,1.9,moss
+78,-15,5-Spring,5-Reindeer,26.4,moss
+63.3,150.3,5-Spring,2-Barren Ground,3,moss
+63.3,150.3,2-Summer,2-Barren Ground,2,moss
+63.3,150.3,3-Autumn,2-Barren Ground,13,moss
+63.3,150.3,4-Winter,2-Barren Ground,18,moss
+65.285,164.675,5-Spring,6-Introduced-Reindeer,8.625,moss
+65.285,164.675,1-Calving,6-Introduced-Reindeer,3,moss
+65.285,164.675,2-Summer,6-Introduced-Reindeer,2.86666666666667,moss
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,3.15,moss
+65.285,164.675,4-Winter,6-Introduced-Reindeer,8.1,moss
+62,137,4-Winter,4-Woodland,2.7,moss
+69,150,4-Winter,2-Barren Ground,18.8333333333333,moss
+66,160,4-Winter,2-Barren Ground,10,moss
+62,138,4-Winter,4-Woodland,16.5,moss
+63,150,4-Winter,2-Barren Ground,14.5,moss
+69,117,4-Winter,2-Barren Ground,4,moss
+66,115,4-Winter,2-Barren Ground,18,moss
+67,52,4-Winter,2-Barren Ground,13,moss
+67,163,4-Winter,2-Barren Ground,19.8,moss
+65.285,164.675,4-Winter,2-Barren Ground,57,moss
+67.1,156,3-Autumn,2-Barren Ground,8.1,moss
+67.1,156,4-Winter,2-Barren Ground,12.475,moss
+67.1,152,4-Winter,3-Mountain,3.9,moss
+67.8,163.5,2-Summer,4-Woodland,11.8,moss
+67.8,163.5,4-Winter,4-Woodland,13.8,moss
+71.11,179.38,2-Summer,5-Reindeer,3.7195,moss
+71.11,179.38,3-Autumn,5-Reindeer,2.305,moss
+71.11,179.38,4-Winter,5-Reindeer,9.11,moss
+69,-26,3-Autumn,5-Reindeer,7.8,moss
+69,-26,4-Winter,5-Reindeer,10.7,moss
+72.5,122,4-Winter,1-Peary,,moss
+72.5,122,5-Spring,1-Peary,,moss
+72.5,122,1-Calving,1-Peary,,moss
+72.5,122,2-Summer,1-Peary,,moss
+72.5,122,3-Autumn,1-Peary,,moss
+69,-23,3-Autumn,5-Reindeer,6.1,moss
+69,-23,4-Winter,5-Reindeer,8.3,moss
+69.3,-27,4-Winter,5-Reindeer,15.6,moss
+69.3,-27,5-Spring,5-Reindeer,15.3,moss
+51.39,117.52,4-Winter,4-Woodland,,moss
+71.11,179.38,5-Spring,5-Reindeer,0.07,moss
+48,55,5-Spring,4-Woodland,,moss
+48,55,2-Summer,4-Woodland,,moss
+48,55,3-Autumn,4-Woodland,,moss
+48,55,4-Winter,4-Woodland,,moss
+79.45,-20,3-Autumn,5-Reindeer,25.15,moss
+79.45,-20,4-Winter,5-Reindeer,23.8333333333333,moss
+79.45,-20,2-Summer,5-Reindeer,6.1,moss
+77.9,-15,4-Winter,5-Reindeer,43,moss
+77.9,-15,2-Summer,5-Reindeer,16,moss
+,,4-Winter,2-Barren Ground,28.8,moss
+,,5-Spring,2-Barren Ground,6.5,moss
+,,1-Calving,2-Barren Ground,4.35,moss
+,,2-Summer,2-Barren Ground,4.85,moss
+,,3-Autumn,2-Barren Ground,37.8,moss
+48.56,66.07,2-Summer,4-Woodland,,moss
+73,120,2-Summer,1-Peary,,moss
+73,120,3-Autumn,1-Peary,,moss
+73,120,4-Winter,1-Peary,,moss
+73,120,5-Spring,1-Peary,,moss
+73.2467,93.5193,5-Spring,1-Peary,25,moss
+72.6766,99.4692,5-Spring,1-Peary,13,moss
+70.34,128,5-Spring,1-Peary,58,moss
+75.3,111.3,5-Spring,1-Peary,34,moss
+76.7775,118.9721,5-Spring,1-Peary,40,moss
+60.03,-7.25,4-Winter,5-Reindeer,2.85,moss
+60.03,-7.25,5-Spring,5-Reindeer,12,moss
+60.03,-7.25,1-Calving,5-Reindeer,6.1,moss
+60.03,-7.25,2-Summer,5-Reindeer,3.7,moss
+60.03,-7.25,3-Autumn,5-Reindeer,3.7,moss
+48.5,53,1-Calving,4-Woodland,,moss
+48.5,53,2-Summer,4-Woodland,5,moss
+48.5,53,3-Autumn,4-Woodland,5,moss
+48.5,53,4-Winter,4-Woodland,6,moss
+64,124,4-Winter,2-Barren Ground,4.9,moss
+69.58,-26.46,4-Winter,5-Reindeer,6.44,moss
+69.58,-26.46,2-Summer,5-Reindeer,2.352,moss
+68.8,-27,4-Winter,5-Reindeer,3.696,moss
+68.8,-27,2-Summer,5-Reindeer,2.912,moss
+69.48,-26.38,2-Summer,5-Reindeer,3.528,moss
+69,-21,2-Summer,5-Reindeer,4.2,moss
+61.43,143.25,2-Summer,2-Barren Ground,,fungi
+78,-15,4-Winter,5-Reindeer,,fungi
+78,-15,2-Summer,5-Reindeer,,fungi
+78,-15,5-Spring,5-Reindeer,,fungi
+63.3,150.3,5-Spring,2-Barren Ground,0,fungi
+63.3,150.3,2-Summer,2-Barren Ground,6,fungi
+63.3,150.3,3-Autumn,2-Barren Ground,4,fungi
+63.3,150.3,4-Winter,2-Barren Ground,1,fungi
+65.285,164.675,5-Spring,6-Introduced-Reindeer,,fungi
+65.285,164.675,1-Calving,6-Introduced-Reindeer,,fungi
+65.285,164.675,2-Summer,6-Introduced-Reindeer,,fungi
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,,fungi
+65.285,164.675,4-Winter,6-Introduced-Reindeer,,fungi
+62,137,4-Winter,4-Woodland,,fungi
+69,150,4-Winter,2-Barren Ground,,fungi
+66,160,4-Winter,2-Barren Ground,,fungi
+62,138,4-Winter,4-Woodland,,fungi
+63,150,4-Winter,2-Barren Ground,,fungi
+69,117,4-Winter,2-Barren Ground,,fungi
+66,115,4-Winter,2-Barren Ground,,fungi
+67,52,4-Winter,2-Barren Ground,,fungi
+67,163,4-Winter,2-Barren Ground,,fungi
+65.285,164.675,4-Winter,2-Barren Ground,,fungi
+67.1,156,3-Autumn,2-Barren Ground,3.6,fungi
+67.1,156,4-Winter,2-Barren Ground,0,fungi
+67.1,152,4-Winter,3-Mountain,,fungi
+67.8,163.5,2-Summer,4-Woodland,,fungi
+67.8,163.5,4-Winter,4-Woodland,,fungi
+71.11,179.38,2-Summer,5-Reindeer,,fungi
+71.11,179.38,3-Autumn,5-Reindeer,,fungi
+71.11,179.38,4-Winter,5-Reindeer,,fungi
+69,-26,3-Autumn,5-Reindeer,,fungi
+69,-26,4-Winter,5-Reindeer,,fungi
+72.5,122,4-Winter,1-Peary,,fungi
+72.5,122,5-Spring,1-Peary,,fungi
+72.5,122,1-Calving,1-Peary,,fungi
+72.5,122,2-Summer,1-Peary,,fungi
+72.5,122,3-Autumn,1-Peary,,fungi
+69,-23,3-Autumn,5-Reindeer,,fungi
+69,-23,4-Winter,5-Reindeer,0,fungi
+69.3,-27,4-Winter,5-Reindeer,,fungi
+69.3,-27,5-Spring,5-Reindeer,,fungi
+51.39,117.52,4-Winter,4-Woodland,,fungi
+71.11,179.38,5-Spring,5-Reindeer,,fungi
+48,55,5-Spring,4-Woodland,,fungi
+48,55,2-Summer,4-Woodland,,fungi
+48,55,3-Autumn,4-Woodland,,fungi
+48,55,4-Winter,4-Woodland,,fungi
+79.45,-20,3-Autumn,5-Reindeer,,fungi
+79.45,-20,4-Winter,5-Reindeer,,fungi
+79.45,-20,2-Summer,5-Reindeer,,fungi
+77.9,-15,4-Winter,5-Reindeer,,fungi
+77.9,-15,2-Summer,5-Reindeer,,fungi
+,,4-Winter,2-Barren Ground,,fungi
+,,5-Spring,2-Barren Ground,,fungi
+,,1-Calving,2-Barren Ground,,fungi
+,,2-Summer,2-Barren Ground,,fungi
+,,3-Autumn,2-Barren Ground,,fungi
+48.56,66.07,2-Summer,4-Woodland,,fungi
+73,120,2-Summer,1-Peary,,fungi
+73,120,3-Autumn,1-Peary,,fungi
+73,120,4-Winter,1-Peary,,fungi
+73,120,5-Spring,1-Peary,,fungi
+73.2467,93.5193,5-Spring,1-Peary,,fungi
+72.6766,99.4692,5-Spring,1-Peary,,fungi
+70.34,128,5-Spring,1-Peary,,fungi
+75.3,111.3,5-Spring,1-Peary,,fungi
+76.7775,118.9721,5-Spring,1-Peary,,fungi
+60.03,-7.25,4-Winter,5-Reindeer,0,fungi
+60.03,-7.25,5-Spring,5-Reindeer,0,fungi
+60.03,-7.25,1-Calving,5-Reindeer,0,fungi
+60.03,-7.25,2-Summer,5-Reindeer,0,fungi
+60.03,-7.25,3-Autumn,5-Reindeer,0.25,fungi
+48.5,53,1-Calving,4-Woodland,,fungi
+48.5,53,2-Summer,4-Woodland,25,fungi
+48.5,53,3-Autumn,4-Woodland,12,fungi
+48.5,53,4-Winter,4-Woodland,,fungi
+64,124,4-Winter,2-Barren Ground,,fungi
+69.58,-26.46,4-Winter,5-Reindeer,,fungi
+69.58,-26.46,2-Summer,5-Reindeer,,fungi
+68.8,-27,4-Winter,5-Reindeer,,fungi
+68.8,-27,2-Summer,5-Reindeer,,fungi
+69.48,-26.38,2-Summer,5-Reindeer,,fungi
+69,-21,2-Summer,5-Reindeer,0.4,fungi
+61.43,143.25,2-Summer,2-Barren Ground,45,vascular
+78,-15,4-Winter,5-Reindeer,14.1,vascular
+78,-15,2-Summer,5-Reindeer,27.7,vascular
+78,-15,5-Spring,5-Reindeer,32.2,vascular
+63.3,150.3,5-Spring,2-Barren Ground,52,vascular
+63.3,150.3,2-Summer,2-Barren Ground,58,vascular
+63.3,150.3,3-Autumn,2-Barren Ground,11,vascular
+63.3,150.3,4-Winter,2-Barren Ground,11,vascular
+65.285,164.675,5-Spring,6-Introduced-Reindeer,9.9,vascular
+65.285,164.675,1-Calving,6-Introduced-Reindeer,32.72,vascular
+65.285,164.675,2-Summer,6-Introduced-Reindeer,25.2333333333333,vascular
+65.285,164.675,3-Autumn,6-Introduced-Reindeer,8.4,vascular
+65.285,164.675,4-Winter,6-Introduced-Reindeer,11.1766666666667,vascular
+62,137,4-Winter,4-Woodland,10.6,vascular
+69,150,4-Winter,2-Barren Ground,12.8333333333333,vascular
+66,160,4-Winter,2-Barren Ground,14.8333333333333,vascular
+62,138,4-Winter,4-Woodland,11.25,vascular
+63,150,4-Winter,2-Barren Ground,10,vascular
+69,117,4-Winter,2-Barren Ground,5,vascular
+66,115,4-Winter,2-Barren Ground,20,vascular
+67,52,4-Winter,2-Barren Ground,7,vascular
+67,163,4-Winter,2-Barren Ground,0,vascular
+65.285,164.675,4-Winter,2-Barren Ground,0,vascular
+67.1,156,3-Autumn,2-Barren Ground,16.3,vascular
+67.1,156,4-Winter,2-Barren Ground,11.225,vascular
+67.1,152,4-Winter,3-Mountain,3.6,vascular
+67.8,163.5,2-Summer,4-Woodland,27.8,vascular
+67.8,163.5,4-Winter,4-Woodland,17.6,vascular
+71.11,179.38,2-Summer,5-Reindeer,21.697,vascular
+71.11,179.38,3-Autumn,5-Reindeer,19.1005,vascular
+71.11,179.38,4-Winter,5-Reindeer,25.017,vascular
+69,-26,3-Autumn,5-Reindeer,16.5,vascular
+69,-26,4-Winter,5-Reindeer,22.9,vascular
+72.5,122,4-Winter,1-Peary,30.45,vascular
+72.5,122,5-Spring,1-Peary,42.9,vascular
+72.5,122,1-Calving,1-Peary,54.3,vascular
+72.5,122,2-Summer,1-Peary,75.35,vascular
+72.5,122,3-Autumn,1-Peary,37.1333333333333,vascular
+69,-23,3-Autumn,5-Reindeer,25.1,vascular
+69,-23,4-Winter,5-Reindeer,26.23,vascular
+69.3,-27,4-Winter,5-Reindeer,33.7,vascular
+69.3,-27,5-Spring,5-Reindeer,22.2,vascular
+51.39,117.52,4-Winter,4-Woodland,25.175,vascular
+71.11,179.38,5-Spring,5-Reindeer,0.58,vascular
+48,55,5-Spring,4-Woodland,20.05,vascular
+48,55,2-Summer,4-Woodland,32.14,vascular
+48,55,3-Autumn,4-Woodland,13,vascular
+48,55,4-Winter,4-Woodland,15.8,vascular
+79.45,-20,3-Autumn,5-Reindeer,67.1,vascular
+79.45,-20,4-Winter,5-Reindeer,55.3333333333333,vascular
+79.45,-20,2-Summer,5-Reindeer,76.5,vascular
+77.9,-15,4-Winter,5-Reindeer,12,vascular
+77.9,-15,2-Summer,5-Reindeer,15,vascular
+,,4-Winter,2-Barren Ground,1.2,vascular
+,,5-Spring,2-Barren Ground,0.2,vascular
+,,1-Calving,2-Barren Ground,49.75,vascular
+,,2-Summer,2-Barren Ground,58.2,vascular
+,,3-Autumn,2-Barren Ground,0.7,vascular
+48.56,66.07,2-Summer,4-Woodland,62,vascular
+73,120,2-Summer,1-Peary,58.47,vascular
+73,120,3-Autumn,1-Peary,66.73,vascular
+73,120,4-Winter,1-Peary,33.6,vascular
+73,120,5-Spring,1-Peary,39.8183333335,vascular
+73.2467,93.5193,5-Spring,1-Peary,29,vascular
+72.6766,99.4692,5-Spring,1-Peary,46,vascular
+70.34,128,5-Spring,1-Peary,2,vascular
+75.3,111.3,5-Spring,1-Peary,6,vascular
+76.7775,118.9721,5-Spring,1-Peary,0,vascular
+60.03,-7.25,4-Winter,5-Reindeer,10.45,vascular
+60.03,-7.25,5-Spring,5-Reindeer,22,vascular
+60.03,-7.25,1-Calving,5-Reindeer,25.1,vascular
+60.03,-7.25,2-Summer,5-Reindeer,20.9,vascular
+60.03,-7.25,3-Autumn,5-Reindeer,7.75,vascular
+48.5,53,1-Calving,4-Woodland,27,vascular
+48.5,53,2-Summer,4-Woodland,31,vascular
+48.5,53,3-Autumn,4-Woodland,33,vascular
+48.5,53,4-Winter,4-Woodland,30,vascular
+64,124,4-Winter,2-Barren Ground,17.1,vascular
+69.58,-26.46,4-Winter,5-Reindeer,26.25,vascular
+69.58,-26.46,2-Summer,5-Reindeer,24.92,vascular
+68.8,-27,4-Winter,5-Reindeer,30.8,vascular
+68.8,-27,2-Summer,5-Reindeer,28.4,vascular
+69.48,-26.38,2-Summer,5-Reindeer,37.85,vascular
+69,-21,2-Summer,5-Reindeer,66.1,vascular
