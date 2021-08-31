@@ -1,6 +1,6 @@
 
 
-## What do caribou eat? A review of the literature on caribou deit
+## What do caribou eat? A review of the literature on caribou diet
 
 
   - Authors:
