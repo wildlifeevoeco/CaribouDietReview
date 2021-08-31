@@ -9,7 +9,7 @@
       - Jack G. Hendrix
       - [Eric Vander Wal](https://weel.gitlab.io/)
 
-This repository contains the code accompanying the paper “What do caribou eat? A review of the literature on caribou deit”. 
+This repository contains the code accompanying the paper “What do caribou eat? A review of the literature on caribou diet”. 
 Scripts are under `scripts/`.  Input data are provided under `input/` and with these data all analyses and figures can be replicated. Downstream output data are available under `output/`.
 
 ## Abstract
