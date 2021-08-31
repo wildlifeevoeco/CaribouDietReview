@@ -1,0 +1,903 @@
+plant_species,type_plant,study,year
+Abies_asiocarpa,tree,Rominger and Oldemeyer,1990
+Abies_asiocarpa,tree,Rominger et al.,1996
+Abies_balsamea,tree,Christopherson et al.,2019
+Acaena_sp,forb,Leader-williams et al,1981
+Acer_sp,shrub,Thompson et al,2015
+Acer_sp,shrub,Thompson et al,2015
+Acer_sp,shrub,Thompson et al,2015
+Alcemilla_glabra,forb,Skogland,1984
+Alectoria_jubata,lichen,Scotter,1964
+Alectoria_ochroleuca,lichen,Cote,1998
+Alectoria_ochroleuca,lichen,Manseau et al.,1996
+Alectoria_sarmentosa,lichen,Rominger et al.,1996
+Alectoria_sp,lichen,Denryter et al.,2017
+Alectoria_sp,lichen,Ferguson et al.,2001
+Alectoria_sp,lichen,Ferguson et al.,2001
+Alectoria_sp,lichen,Fischer and Gates,2005
+Alnus_crispa,tree,Denryter et al.,2017
+Alnus_rugosa,shrub,Christopherson et al.,2019
+Alnus_sp,shrub,Thompson et al,2015
+Alnus_sp,shrub,Thompson et al,2015
+Alnus_sp,shrub,Thompson et al,2015
+Alnus_sp,shrub,McNeill et al.,2020
+Alopecurus_alpinus,graminoid,Kazmin et al,2011
+Alopecurus_borealis,graminoid,Bjorkvoll et al,2009
+Alopecurus_borealis,graminoid,Bjune,2000
+Andromeda_glaucophylla,shrub,Schaefer and Pruitt,1991
+Anemone_sp,forb,Thompson et al,2015
+Anemone_sp,forb,Thompson et al,2015
+Anemone_sp,forb,Thompson et al,2015
+Aralia_nudicaulis,forb,McNeill et al.,2020
+Aralia_sp,forb,Thompson et al,2015
+Aralia_sp,forb,Thompson et al,2015
+Aralia_sp,forb,Thompson et al,2015
+Arctagrostis_arundinacea,graminoid,Kazmin et al,2011
+Arctagrostis_latifolia,graminoid,Kazmin et al,2011
+Arctostaphylos_alpina,shrub,Manseau et al.,1996
+Arctostaphylos_sp,shrub,Shank et al,1978
+Arctostaphylos_uva,shrub,Schaefer and Pruitt,1991
+Arctostaphylos_uva,shrub,Scotter,1964
+Artemisia_arctica,forb,Kazmin and Abaturov,2011
+Artemisia_sp,forb,Kazmin and Abaturov,2011
+Artemisia_sp,shrub,Shank et al,1978
+Artemisia_tilesii,forb,Kazmin et al,2011
+Aster_sp,forb,Denryter et al.,2017
+Aster_sp,forb,McNeill et al.,2020
+Aster_sp,forb,Thompson et al,2015
+Aster_sp,forb,Thompson et al,2015
+Aster_sp,forb,Thompson et al,2015
+Asteraceae_sp,forb,Christopherson et al.,2019
+Astragalus_alpinus,forb,Shank et al,1978
+Astragalus_alpinus,forb,Kazmin and Abaturov,2011
+Astragalus_alpinus,forb,Kazmin and Abaturov,2011
+Astragalus_alpinus,forb,Kazmin et al,2011
+Astragalus_sp,forb,Larter and Nagy,2004
+Astragalus_tolmaczevii,forb,Kazmin and Abaturov,2011
+Astragalus_umbellatus,forb,Kazmin et al,2011
+Betula_glandulosa,shrub,Cote,1998
+Betula_glandulosa,shrub,Manseau et al.,1996
+Betula_glandulosa,shrub,Trudell and White,1981
+Betula_glandulosa,shrub,Zamin et al.,2017
+Betula_nana,shrub,Trudell and White,1981
+Betula_nana,shrub,White and Trudell,1980
+Betula_papyrifera,tree,Denryter et al.,2017
+Betula_sp,shrub,Thompson and McCourt,1981
+Betula_sp,shrub,Thompson et al,2015
+Betula_sp,shrub,Thompson et al,2015
+Betula_sp,shrub,Thompson et al,2015
+Betula_sp,tree,Bjune,2000
+Betula_sp,tree,Christopherson et al.,2019
+Bistorta_subscaposa,forb,Joo et al,2014
+Bistorta_vivipara,forb,Bjune,2000
+Bistorta_vivipara,forb,Bjune,2000
+Bistorta_vivipara,forb,Bjorkvoll et al,2009
+Bistorta_vivipara,forb,Kazmin et al,2011
+Branta_leucopsis,animal_parts,Van der Wal and Loonen,1998
+Bryonia_sp,forb,Fischer and Gates,2005
+Bryophyta_sp,moss,Rozenfield et al,2012
+Bryoria_freemonti,lichen,Newmaster et al.,2013
+Bryoria_sp,lichen,Denryter et al.,2017
+Bryoria_sp,lichen,Johnson et al,2001
+Bryoria_sp,lichen,Rominger et al.,1996
+Bryoria_sp,lichen,Schaefer and Pruitt,1991
+Bryoria_sp,lichen,Thompson et al,2015
+Bryoria_sp,lichen,Thompson et al,2015
+Bryoria_sp,lichen,Thompson et al,2015
+Calamagrostis_canadensis,graminoid,Manseau et al.,1996
+Calamagrostis_sp,graminoid,Thompson and McCourt,1981
+Caltha_arctica,forb,Kazmin and Abaturov,2011
+Carex_aquatilis,graminoid,Trudell and White,1981
+Carex_aquatilis,sedge,Gustine et al.,2017
+Carex_aquatilis,sedge,White and Trudell,1980
+Carex_bigelowii,graminoid,Trudell and White,1981
+Carex_bigelowii,graminoid,Skogland,1984
+Carex_bigelowii,sedge,White and Trudell,1980
+Carex_bigelowii,shrub,Manseau et al.,1996
+Carex_lugens,sedge,Kazmin and Abaturov,2011
+Carex_lugens,sedge,Kazmin et al,2011
+Carex_podocarpa,sedge,Kazmin et al,2011
+Carex_rariflora,graminoid,Manseau et al.,1996
+Carex_rariflora,sedge,Cote,1998
+Carex_scirpoidea,graminoid,Trudell and White,1981
+Carex_sp,graminoid,Thompson and McCourt,1981
+Carex_sp,graminoid,Thompson et al,2015
+Carex_sp,graminoid,Thompson et al,2015
+Carex_sp,graminoid,Thompson et al,2015
+Carex_sp,sedge,Boertje,1984
+Carex_sp,sedge,Kazmin and Abaturov,2011
+Carex_stans,sedge,Kazmin et al,2011
+Carix_nesophilla,sedge,Kazmin and Abaturov,2011
+Cassiope_tetragona,forb,Shank et al,1978
+Cassiope_tetragona,shrub,Adamczewski et al,1988
+Cassiope_tetragona,shrub,Bjune,2000
+Cassiope_tetragona,shrub,Ferguson et al.,2001
+Cassiope_tetragona,shrub,Ferguson et al.,2001
+Cerastium_sp,forb,Bjune,2000
+Cerastium_sp,forb,Shank et al,1978
+Cetraria_cuculata,lichen,Manseau et al.,1996
+Cetraria_cuculata,lichen,White and Trudell,1980
+Cetraria_cuculata,lichen,Zamin et al.,2017
+Cetraria_ericetorum,lichen,Johnson et al,2001
+Cetraria_islandica,lichen,Manseau et al.,1996
+Cetraria_nivalis,lichen,Ferguson et al.,2001
+Cetraria_nivalis,lichen,Manseau et al.,1996
+Cetraria_nivalis,lichen,Scotter,1964
+Cetraria_sp,lichen,Ferguson et al.,2001
+Cetraria_sp,lichen,Cote,1998
+Cetraria_sp,lichen,Denryter et al.,2017
+Cetraria_sp,lichen,Ferguson et al.,2001
+Cetraria_sp,lichen,Fischer and Gates,2005
+Cetraria_sp,lichen,Kojola et al,1995
+Cetraria_sp,lichen,Larter and Nagy,2004
+Cetraria_sp,lichen,Manseau et al.,1996
+Cetraria_sp,lichen,Skogland,1984
+Cetrariella_delisi,lichen,Joo et al,2014
+Cetrariella_fastigiata,lichen,Joo et al,2014
+Chamaedaphne_calyculata,shrub,Schaefer and Pruitt,1991
+Chamaedaphne_calyculata,shrub,McNeill et al.,2020
+Chamaedaphne_sp,shrub,Thompson et al,2015
+Chamaedaphne_sp,shrub,Thompson et al,2015
+Chamaedaphne_sp,shrub,Thompson et al,2015
+Citraria_nivalis,lichen,Shank et al,1978
+Cladina_mitis,lichen,Johnson et al,2001
+Cladina_rangiferina,lichen,Cote,1998
+Cladina_rangiferina,lichen,Johnson et al,2001
+Cladina_rangiferina,lichen,Thompson et al,2015
+Cladina_rangiferina,lichen,Thompson et al,2015
+Cladina_rangiferina,lichen,Thompson et al,2015
+Cladina_sp,lichen,Denryter et al.,2017
+Cladina_sp,lichen,Ferguson et al.,2001
+Cladina_sp,lichen,Ferguson et al.,2001
+Cladina_sp,lichen,Fischer and Gates,2005
+Cladina_sp,lichen,Larter and Nagy,2004
+Cladina_sp,lichen,Manseau et al.,1996
+Cladina_sp,lichen,Schaefer and Pruitt,1991
+Cladina_sp,lichen,Skogland,1984
+Cladina_sp,lichen,Thompson et al,2015
+Cladina_sp,lichen,Thompson et al,2015
+Cladina_sp,lichen,Thompson et al,2015
+Cladina_sp,lichen,McNeill et al.,2020
+Cladina_stellaris,lichen,Cote,1998
+Cladina_stellaris,lichen,Manseau et al.,1996
+Cladina_stellaris,lichen,Thompson et al,2015
+Cladina_stellaris,lichen,Thompson et al,2015
+Cladina_stellaris,lichen,Thompson et al,2015
+Cladinia_rangiferina,lichen,Thompson et al,2012
+Cladonia_alpestris,lichen,Scotter,1964
+Cladonia_arbuscula,lichen,Newmaster et al.,2013
+Cladonia_ecmocyna,lichen,Johnson et al,2001
+Cladonia_gracilis,lichen,Manseau et al.,1996
+Cladonia_mitis,lichen,Newmaster et al.,2013
+Cladonia_rangiferina,lichen,Scotter,1964
+Cladonia_rangiferina,lichen,Zamin et al.,2017
+Cladonia_sp,lichen,Denryter et al.,2017
+Cladonia_sp,lichen,Ferguson et al.,2001
+Cladonia_sp,lichen,Ferguson et al.,2001
+Cladonia_sp,lichen,Fischer and Gates,2005
+Cladonia_sp,lichen,Johnson et al,2001
+Cladonia_sp,lichen,Kojola et al,1995
+Cladonia_sp,lichen,Larter and Nagy,2004
+Cladonia_sp,lichen,Schaefer and Pruitt,1991
+Cladonia_sp,lichen,Shank et al,1978
+Cladonia_sp,lichen,Thompson et al,2015
+Cladonia_sp,lichen,Thompson et al,2015
+Cladonia_sp,lichen,Thompson et al,2015
+Cladonia_sp,lichen,White and Trudell,1980
+Cladonia_sp,lichen,McNeill et al.,2020
+Cladonia_stygia,lichen,Newmaster et al.,2013
+Cladonia_uncialis,lichen,Johnson et al,2001
+Cladonia_uncialis,lichen,Manseau et al.,1996
+Clintonia_borealis,forb,Thompson et al,2012
+Clintonia_borealis,forb,McNeill et al.,2020
+Clintonia_borealis,forb,Thompson et al,2015
+Clintonia_borealis,forb,Thompson et al,2015
+Clintonia_borealis,forb,Thompson et al,2015
+Clintonia_uniflora,forb,Denryter et al.,2017
+Colobanthus_sp,forb,Leader-williams et al,1981
+Compositae_sp,forb,Schaefer and Pruitt,1991
+Compositeae_sp,forb,Shank et al,1978
+Coptis_groenlandica,forb,Manseau et al.,1996
+Coptis_sp,forb,McNeill et al.,2020
+Coptis_sp,forb,Thompson et al,2015
+Coptis_sp,forb,Thompson et al,2015
+Coptis_sp,forb,Thompson et al,2015
+Cornicularia_sp,lichen,Ferguson et al.,2001
+Cornicularia_sp,lichen,Ferguson et al.,2001
+Corniculata_divertica,lichen,Manseau et al.,1996
+Cornus_alternifolia,shrub,McNeill et al.,2020
+Cornus_canadensis,forb,Manseau et al.,1996
+Cornus_canadensis,forb,McNeill et al.,2020
+Cornus_canadensis,shrub,Christopherson et al.,2019
+Cornus_sp,forb,Thompson et al,2015
+Cornus_sp,forb,Thompson et al,2015
+Cornus_sp,forb,Thompson et al,2015
+Cornus_stolonifera,shrub,McNeill et al.,2020
+Cortinarius_favrei,fungi,Joo et al,2014
+Crepis_nana,forb,Kazmin and Abaturov,2011
+Cyperaceae_sp,graminoid,Rozenfield et al,2012
+Cyperaceae_sp,graminoid,Shank et al,1978
+Cyperaceae_sp,sedge,Kojola et al,1995
+Dactylina arctica,lichen,White and Trudell,1980
+Dactylina_sp,lichen,Fischer and Gates,2005
+Deschampsia_antarctica,graminoid,Leader-williams et al,1981
+Deschampsia_flexuosa,graminoid,Skogland,1984
+Deschampsia_sp,graminoid,Bjune,2000
+Diapensia_lapponica,forb,Manseau et al.,1996
+Dicranum_fuscescens,moss,Christopherson et al.,2019
+Dicranum_scoparium,moss,Bjorkvoll et al,2009
+Dicranum_sp,moss,Kojola et al,1995
+Dicranum_sp,moss,Thompson et al,2015
+Dicranum_sp,moss,Thompson et al,2015
+Dicranum_sp,moss,Thompson et al,2015
+Diervilla_lonicera,shrub,McNeill et al.,2020
+Diervilla_sp,shrub,Thompson et al,2015
+Diervilla_sp,shrub,Thompson et al,2015
+Diervilla_sp,shrub,Thompson et al,2015
+Draba_sp,forb,Shank et al,1978
+Draba_sp,forb,Sormo et al,1999
+Draba_sp,forb,Sormo et al,1999
+Drepanocladus_sp,moss,Bjune,2000
+Dryas_integrifolia,forb,Adamczewski et al,1988
+Dryas_integrifolia,forb,Shank et al,1978
+Dryas_integrifolia,forb,Larter and Nagy,2004
+Dryas_integrifolia,shrub,Ferguson et al.,2001
+Dryas_octopetala,forb,Bjune,2000
+Dryas_octopetala,forb,Hansen et al.,2019
+Dryas_octopetala,shrub,Bjorkvoll et al,2009
+Dryas_octopetala,shrub,Cooper and Wookey,2003
+Dryas_sp,shrub,Boertje,1984
+Dryas_sp,shrub,Rozenfield et al,2012
+Dryas_sp,shrub,Thompson and McCourt,1981
+Dupontia_fisheri,graminoid,Wegener and Odasz-Albrigtsen,1998
+Dupontia_sp,graminoid,Bjorkvoll et al,2009
+Dupontia_sp,graminoid,Bjune,2000
+Elymus_innovatus,graminoid,Denryter et al.,2017
+Empetrum_nigrum,shrub,Adamczewski et al,1988
+Empetrum_nigrum,shrub,Denryter et al.,2017
+Empetrum_sp,shrub,Kojola et al,1995
+Epilobium_angustifolium,forb,Denryter et al.,2017
+Epilobium_angustifolium,forb,Manseau et al.,1996
+Epilobium_angustifolium,forb,Schaefer and Pruitt,1991
+Epilobium_latifolium,forb,Shank et al,1978
+Equiesetum_avense,horsetail,Christopherson et al.,2019
+Equiesetum_hyemale,horsetail,Christopherson et al.,2019
+Equisetum_scirpoides,horsetail,Kazmin and Abaturov,2011
+Equisetum_sp,horsetail,Finstand and Kielland,2011
+Equisetum_sp,horsetail,Finstand and Kielland,2011
+Equisetum_sp,horsetail,Finstand and Kielland,2011
+Equisetum_sp,horsetail,Finstand and Kielland,2011
+Equisetum_sp,horsetail,Finstand and Kielland,2011
+Equisetum_sp,horsetail,Manseau et al.,1996
+Equisetum_sp,horsetail,Manseau et al.,1996
+Equisetum_sp,horsetail,Thompson et al,2015
+Equisetum_sp,horsetail,Thompson et al,2015
+Equisetum_sp,horsetail,Thompson et al,2015
+Equisetum_sp,horsetail,Adamczewski et al,1988
+Equisetum_sp,horsetail,Bjorkvoll et al,2009
+Equisetum_sp,horsetail,Boertje,1984
+Equisetum_sp,horsetail,Sormo et al,1999
+Equisetum_sp,horsetail,Sormo et al,1999
+Equisetum_sp,horsetail,Thompson and McCourt,1981
+Equisetum_sp,horsetail,McNeill et al.,2020
+Equisetum_sp,horsetail,Larter and Nagy,2004
+Equisetum_sylvaticum,horsetail,Denryter et al.,2017
+Equisetum_sylvaticum,horsetail,Christopherson et al.,2019
+Eriophorum_angustifolium,graminoid,Trudell and White,1981
+Eriophorum_angustifolium,sedge,Cote,1998
+Eriophorum_polystachyon,sedge,Kazmin et al,2011
+Eriophorum_scheuchzeri,sedge,Bjorkvoll et al,2009
+Eriophorum_sp,forb,Skogland,1984
+Eriophorum_sp,graminoid,Manseau et al.,1996
+Eriophorum_sp,sedge,Thompson and McCourt,1981
+Eriophorum_vaginatum,graminoid,Trudell and White,1981
+Eriophorum_vaginatum,graminoid,Gustine et al.,2017
+Eriophorum_vaginatum,graminoid,Zamin et al.,2017
+Eriophorum_vaginatum,sedge,White and Trudell,1980
+Evernia_mesomorpha,lichen,Scotter,1964
+Evernia_mesomorpha,lichen,Thompson et al,2012
+Evernia_sp,lichen,Schaefer and Pruitt,1991
+Evernia_sp,lichen,Thompson et al,2015
+Evernia_sp,lichen,Thompson et al,2015
+Evernia_sp,lichen,Thompson et al,2015
+Fabaceae_sp,forb,Rozenfield et al,2012
+Festuca_baffinensis,graminoid,Kazmin et al,2011
+Festuca_brachyphylla,graminoid,Kazmin et al,2011
+Festuca_contracta,graminoid,Leader-williams et al,1981
+Festuca_rubra,graminoid,Bjorkvoll et al,2009
+Festuca_rubra,graminoid,Kazmin and Abaturov,2011
+Festuca_sp,graminoid,Boertje,1984
+Festuca_sp,graminoid,Thompson and McCourt,1981
+Flavocetraria_sp,lichen,Denryter et al.,2017
+Galium_antarcticum,forb,Leader-williams et al,1981
+Gaultheria_procumbens,shrub,Schaefer and Pruitt,1991
+Graminae_sp,graminoid,Kojola et al,1995
+Gramineae_sp,graminoid,Shank et al,1978
+Graminides_sp,graminoid,Sormo et al,1999
+Graminides_sp,graminoid,Sormo et al,1999
+Hebeloma_testaceum,fungi,Joo et al,2014
+Hieracium_sp,forb,Thompson et al,2015
+Hieracium_sp,forb,Thompson et al,2015
+Hieracium_sp,forb,Thompson et al,2015
+Hierochloe_alpina,graminoid,Manseau et al.,1996
+Hierochloe_alpina,graminoid,Denryter et al.,2017
+Hierochloe_sp,graminoid,Boertje,1984
+horsetail_sp,horsetail,Rozenfield et al,2012
+Hylocomium_sp,moss,Thompson et al,2015
+Hylocomium_sp,moss,Thompson et al,2015
+Hylocomium_sp,moss,Thompson et al,2015
+Juncaceae_sp,graminoid,Rozenfield et al,2012
+Juncus_sp,graminoid,Shank et al,1978
+Juncus_sp,rush,Leader-williams et al,1981
+Juncus_trifidus,rush,Skogland,1984
+Juniperus_communis,tree,Christopherson et al.,2019
+Juniperus_sp,shrub,Schaefer and Pruitt,1991
+Kalmia_polifolia,shrub,Schaefer and Pruitt,1991
+Koeleria_asiatica,graminoid,Kazmin and Abaturov,2011
+Lagotis_minor,forb,Kazmin and Abaturov,2011
+Lathyrus_sp,forb,Denryter et al.,2017
+Ledum_groenlandicum,forb,Thompson et al,2012
+Ledum_groenlandicum,shrub,Scotter,1964
+Ledum_palustre,shrub,White and Trudell,1980
+Ledum_sp,forb,Boertje,1984
+Ledum_sp,shrub,Kojola et al,1995
+Ledum_sp,shrub,Thompson et al,2015
+Ledum_sp,shrub,Thompson et al,2015
+Ledum_sp,shrub,Thompson et al,2015
+,lichen,Rozenfield et al,2012
+Linnaea_borealis,forb,Manseau et al.,1996
+Linnaea_sp,shrub,Thompson et al,2015
+Linnaea_sp,shrub,Thompson et al,2015
+Linnaea_sp,shrub,Thompson et al,2015
+Lonicera_sp,shrub,Thompson et al,2015
+Lonicera_sp,shrub,Thompson et al,2015
+Lonicera_sp,shrub,Thompson et al,2015
+Luzula_confusa,graminoid,Manseau et al.,1996
+Luzula_confusa,rush,Bjune,2000
+Luzula_confusa,rush,Van der Wal et al,1999
+Luzula_confuse,sedge,Kazmin and Abaturov,2011
+Luzula_sp,forb,Sormo et al,1999
+Luzula_sp,forb,Sormo et al,1999
+Luzula_sp,rush,Bjorkvoll et al,2009
+Lycopodium_sp,moss,McNeill et al.,2020
+Maianthemum_canadense,forb,Thompson et al,2012
+Maianthemum_canadense,forb,McNeill et al.,2020
+Maianthemum_canadense,forb,Thompson et al,2015
+Maianthemum_canadense,forb,Thompson et al,2015
+Maianthemum_canadense,forb,Thompson et al,2015
+Maianthemum_trifolium,forb,McNeill et al.,2020
+Maianthemum_trifolium,forb,Thompson et al,2015
+Maianthemum_trifolium,forb,Thompson et al,2015
+Maianthemum_trifolium,forb,Thompson et al,2015
+Melandrium_sp,forb,Shank et al,1978
+Menyanthes_trifoliata,forb,McNeill et al.,2020
+Menyanthes_trifoliata,forb,Thompson et al,2015
+Menyanthes_trifoliata,forb,Thompson et al,2015
+Menyanthes_trifoliata,forb,Thompson et al,2015
+Mitella_sp,forb,Rominger and Oldemeyer,1990
+Nardosnia_frigida,forb,Kazmin and Abaturov,2011
+Nephroma_arcticum,lichen,Scotter,1964
+Oxycoccus_sp,forb,Shank et al,1978
+Oxyria_digyna,forb,Bjorkvoll et al,2009
+Oxyria_digyna,forb,Bjune,2000
+Oxyria_digyna,forb,Bjune,2000
+Oxyria_digyna,forb,Shank et al,1978
+Oxytropis_czukotica,forb,Kazmin et al,2011
+Oxytropis_mertensiana,forb,Kazmin and Abaturov,2011
+Oxytropis_schsmurinii,forb,Kazmin et al,2011
+Oxytropis_sp,forb,Shank et al,1978
+Oxytropis_sp,forb,Larter and Nagy,2004
+Oxytropis_wrangelii,forb,Kazmin and Abaturov,2011
+Pachistima_myrsinites,shrub,Rominger and Oldemeyer,1990
+Papaver_dahlianum,forb,Bjune,2000
+Pedicularis_frigidus,forb,Trudell and White,1981
+Pedicularis_langsdorfii,forb,Trudell and White,1981
+Pedicularis_sp,forb,Bjune,2000
+Pedicularis_sp,forb,Gustine et al.,2017
+Pedicularis_sp,forb,Manseau et al.,1996
+Pedicularis_sp,forb,Shank et al,1978
+Pedicularis_sp,forb,White and Trudell,1980
+Pedicularis_sudetica,forb,Kazmin and Abaturov,2011
+Pedicularis_verticillata,forb,Kazmin and Abaturov,2011
+Peltigera_aphthosa,lichen,Johnson et al,2001
+Peltigera_aphthosa,lichen,Scotter,1964
+Peltigera_canina,lichen,Scotter,1964
+Peltigera_sp,lichen,Fischer and Gates,2005
+Peltigera_sp,lichen,Larter and Nagy,2004
+Peltigera_sp,lichen,Shank et al,1978
+Petasites_sp,forb,Shank et al,1978
+Petasites_sp,forb,McNeill et al.,2020
+Phleum_alpinum,graminoid,Leader-williams et al,1981
+Picea_engelmannii,tree,Rominger and Oldemeyer,1990
+Picea_glauca,tree,Christopherson et al.,2019
+Picea_mariana,tree,McNeill et al.,2020
+Picea_sp,tree,Thompson and McCourt,1981
+Pinus_sp,tree,Bjune,2000
+Pinus_sylverstris,tree,Roturier and Bergsten,2006
+Pleurozium_schreberi,moss,Johnson et al,2001
+Pleurozium_schreberi,moss,Johnson et al,2001
+Pleurozium_schreberi,moss,Thompson et al,2012
+Pleurozium_schreberi,moss,Thompson et al,2015
+Pleurozium_schreberi,moss,Thompson et al,2015
+Pleurozium_schreberi,moss,Thompson et al,2015
+Pleurozium_schreberi,moss,Christopherson et al.,2019
+Pleurozium_sp,moss,Kojola et al,1995
+Pleurozium_sp,moss,McNeill et al.,2020
+Poa_alpina,graminoid,Skogland,1984
+Poa_flabellata,graminoid,Leader-williams et al,1981
+Poa_malacantha,graminoid,Kazmin et al,2011
+Poa_sp,graminoid,Bjorkvoll et al,2009
+Poa_sp,graminoid,Bjune,2000
+Poa_sp,graminoid,Leader-williams et al,1981
+Poa_sp,graminoid,Sormo et al,1999
+Poa_sp,graminoid,Sormo et al,1999
+Poaceae_sp,graminoid,Rozenfield et al,2012
+Polygonum_bistorta,forb,Trudell and White,1981
+Polygonum_viviparum,forb,Skogland,1984
+Polytrichum_juniperinum,moss,Joo et al,2014
+Polytrichum_sp,moss,Bjorkvoll et al,2009
+Polytrichum_sp,moss,Kojola et al,1995
+Populus_sp,tree,McNeill et al.,2020
+Potentilla_hyparctica,forb,Kazmin et al,2011
+Potentilla_pulchella,forb,Kazmin and Abaturov,2011
+Potentilla_sp,forb,Kazmin and Abaturov,2011
+Potentilla_sp,forb,Shank et al,1978
+Ptilidium_ciliare,liverwort,Christopherson et al.,2019
+Ptilium_sp,moss,Thompson et al,2015
+Ptilium_sp,moss,Thompson et al,2015
+Ptilium_sp,moss,Thompson et al,2015
+Puccinellia_phryganodes,graminoid,Kazmin et al,2011
+Racomitrium_lanuginosum,moss,Bjorkvoll et al,2009
+Ranunculus_reptans,forb,Christopherson et al.,2019
+Ranunculus_sp,forb,Sormo et al,1999
+Ranunculus_sp,forb,Sormo et al,1999
+Ranunculus_sulphureus,forb,Bjune,2000
+Rhododendron_subarcticum,shrub,Zamin et al.,2017
+Ribes_triste,shrub,Christopherson et al.,2019
+Robus_sp,forb,McNeill et al.,2020
+Rosa_sp,forb,McNeill et al.,2020
+Rosa_sp,shrub,Thompson et al,2015
+Rosa_sp,shrub,Thompson et al,2015
+Rosa_sp,shrub,Thompson et al,2015
+Rostkovia_magellanica,rush,Leader-williams et al,1981
+Rubus_arcticus,forb,Manseau et al.,1996
+Rubus_chamaemorus,forb,Manseau et al.,1996
+Rubus_chamaemorus,forb,Trudell and White,1981
+Rubus_chamaemorus,shrub,White and Trudell,1980
+Rubus_sp,shrub,Thompson et al,2015
+Rubus_sp,shrub,Thompson et al,2015
+Rubus_sp,shrub,Thompson et al,2015
+Rumex_arcticus,forb,Kazmin and Abaturov,2011
+Salicaceae_sp,shrub,Rozenfield et al,2012
+Salicaceae_sp,shrub,Shank et al,1978
+Salix_arctica,shrub,Kazmin et al,2011
+Salix_arctica,shrub,Larter and Nagy,2004
+Salix_bebbiana,shrub,Joo et al,2014
+Salix_bebbiana,shrub,Joo et al,2014
+Salix_bebbiana,tree,Christopherson et al.,2019
+Salix_glauca,shrub,den Herder et al,2008
+Salix_glauca,shrub,Kazmin and Abaturov,2011
+Salix_glauca,shrub,Manseau et al.,1996
+Salix_glauca,shrub,Trudell and White,1981
+Salix_herbacea,shrub,Joo et al,2014
+Salix_herbacea,shrub,Manseau et al.,1996
+Salix_herbacea,shrub,Skogland,1984
+Salix_lanata,shrub,Kazmin and Abaturov,2011
+Salix_lanata,shrub,Trudell and White,1981
+Salix_lapponum,shrub,Skogland,1984
+Salix_ovalifolia,shrub,Trudell and White,1981
+Salix_phlebophylla,shrub,Kazmin and Abaturov,2011
+Salix_phylicifolia,shrub,den Herder et al,2004
+Salix_phylicifolia,shrub,Herder et al,2004
+Salix_planifolia,shrub,Manseau et al.,1996
+Salix_polaris,shrub,Bjorkvoll et al,2009
+Salix_polaris,shrub,Bjune,2000
+Salix_polaris,shrub,Kazmin et al,2011
+Salix_polaris,shrub,Sormo et al,1999
+Salix_polaris,shrub,Sormo et al,1999
+Salix_polaris,shrub,Van der Wal et al,1999
+Salix_polaris,shrub,Hansen et al.,2019
+Salix_pulchra,shrub,Gustine et al.,2017
+Salix_pulchra,shrub,Kazmin and Abaturov,2011
+Salix_pulchra,shrub,Trudell and White,1981
+Salix_pulchra,shrub,Trudell and White,1981
+Salix_pulchra,shrub,White and Trudell,1980
+Salix_reptans,shrub,Kazmin and Abaturov,2011
+Salix_reptans,shrub,Kazmin et al,2011
+Salix_reticulata,shrub,Trudell and White,1981
+Salix_sp,shrub,Kazmin and Abaturov,2011
+Salix_sp,shrub,Thompson and McCourt,1981
+Salix_sp,shrub,Thompson et al,2015
+Salix_sp,shrub,Thompson et al,2015
+Salix_sp,shrub,Thompson et al,2015
+Salix_sp,tree,Bjune,2000
+Salix_sp,tree,Boertje,1984
+Salix_sp,tree,Denryter et al.,2017
+Salix_sp,tree,McNeill et al.,2020
+Salix_uva,shrub,Manseau et al.,1996
+Saxifraga_fortunei,forb,Joo et al,2014
+Saxifraga_hieracifolia,forb,Kazmin and Abaturov,2011
+Saxifraga_nivalis,forb,Bjune,2000
+Saxifraga_oppositifolia,forb,Bjune,2000
+Saxifraga_oppositifolia,forb,Joo et al,2014
+Saxifraga_oppositiofolia,forb,Bjorkvoll et al,2009
+Saxifraga_sp,forb,Adamczewski et al,1988
+Saxifraga_sp,forb,Shank et al,1978
+Saxifraga_sp,forb,Sormo et al,1999
+Saxifraga_sp,forb,Sormo et al,1999
+Saxifragaceae_sp,forb,Rominger and Oldemeyer,1990
+Scirpus_caespitosus,graminoid,Manseau et al.,1996
+Selaginella_sp,moss,Thompson and McCourt,1981
+Silene_paradoxa,forb,Joo et al,2014
+Siphula_ceratites,lichen,Ferguson et al.,2001
+Siphula_ceratites,lichen,Ferguson et al.,2001
+Solidago_macrophylla,forb,Manseau et al.,1996
+Solidago_virgaurea,forb,Skogland,1984
+Sorbus_americana,tree,Christopherson et al.,2019
+Sphaereophorus_globosus,lichen,Manseau et al.,1996
+Sphaerophorus_fragilis,lichen,Ferguson et al.,2001
+Sphaerophorus_fragilis,lichen,Ferguson et al.,2001
+Sphagnum_magellanicum,moss,Thompson et al,2012
+Sphagnum_sp,moss,Thompson and McCourt,1981
+Sphagnum_sp,moss,Thompson et al,2015
+Sphagnum_sp,moss,Thompson et al,2015
+Sphagnum_sp,moss,Thompson et al,2015
+Sphagnum_sp,moss,McNeill et al.,2020
+Splachnum_sphaericum,moss,Christopherson et al.,2019
+Stellaria_longipes,forb,Bjorkvoll et al,2009
+Stellaria_sp,forb,Shank et al,1978
+Stereocaulon_alpinum,lichen,Johnson et al,2001
+Stereocaulon_paschale,lichen,Cote,1998
+Stereocaulon_paschale,lichen,Manseau et al.,1996
+Stereocaulon_paschale,lichen,Skogland,1984
+Stereocaulon_sp,lichen,Kojola et al,1995
+Stereocaulon_sp,lichen,Schaefer and Pruitt,1991
+Stereocaulon_sp,lichen,Scotter,1964
+Stereocaulon_tomentosum,lichen,Joo et al,2014
+Stereocaulon_tomentosum,lichen,Scotter,1964
+Stereocaulon_sp,lichen,Ferguson et al.,2001
+Stereocaulon_sp,lichen,Ferguson et al.,2001
+Streptopus_amplexifolius,forb,Denryter et al.,2017
+Thamnolia_sp,lichen,White and Trudell,1980
+Thamnolia_subuliformis,lichen,Larter and Nagy,2004
+Thamnolia_vermicularis,lichen,Shank et al,1978
+Thamnolia_vernicularis,lichen,Manseau et al.,1996
+Tiarella_trifoliata,forb,Rominger and Oldemeyer,1990
+Tomentypnum_sp,moss,Bjune,2000
+Trientalis_borealis,forb,Manseau et al.,1996
+Trientalis_borealis,forb,McNeill et al.,2020
+Trisetum_spicatum,graminoid,Bjorkvoll et al,2009
+Trisetum_spicatum,graminoid,Kazmin and Abaturov,2011
+Trisetum_spicatum,graminoid,Kazmin et al,2011
+Tsuga_heterophylla,tree,Rominger and Oldemeyer,1990
+Umbilicaria_sp,lichen,Schaefer and Pruitt,1991
+Uncinia_meridensis,sedge,Leader-williams et al,1981
+Usnea_hirta,lichen,Scotter,1964
+Usnea_sp,lichen,Fischer and Gates,2005
+Usnea_sp,lichen,Schaefer and Pruitt,1991
+Usnea_sp,lichen,Thompson et al,2012
+Usnea_sp,lichen,Thompson et al,2015
+Usnea_sp,lichen,Thompson et al,2015
+Usnea_sp,lichen,Thompson et al,2015
+Vaccinium_caespitosum,shrub,Manseau et al.,1996
+Vaccinium_sp,forb,McNeill et al.,2020
+Vaccinium_sp,shrub,Boertje,1984
+Vaccinium_sp,shrub,Kojola et al,1995
+Vaccinium_sp,shrub,Schaefer and Pruitt,1991
+Vaccinium_sp,shrub,Thompson and McCourt,1981
+Vaccinium_sp,shrub,Thompson et al,2015
+Vaccinium_sp,shrub,Thompson et al,2015
+Vaccinium_sp,shrub,Thompson et al,2015
+Vaccinium_uliginosum,forb,Christopherson et al.,2019
+Vaccinium_uliginosum,shrub,Cote,1998
+Vaccinium_uliginosum,shrub,Manseau et al.,1996
+Vaccinium_vitis,forb,Christopherson et al.,2019
+Vaccinium_vitis,shrub,Denryter et al.,2017
+Vaccinium_vitis,shrub,Schaefer and Pruitt,1991
+Vaccinium_vitis,shrub,Scotter,1964
+Vaccinium_vitis,shrub,Skogland,1984
+Vaccinium_vitis,shrub,White and Trudell,1980
+Vaccinium_vitis,shrub,Zamin et al.,2017
+Valeriana_capitata,forb,Kazmin and Abaturov,2011
+,animal_parts,Thompson and McCourt,1981
+,moss,Leader-williams et al,1981
+,moss,Ophof et al.,2013
+,moss,Hansen et al.,2019
+,lichen,Manseau et al.,1996
+,shrub,Boertje,1990
+,shrub,Boertje,1990
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Gustine et al.,2014
+,forb,Barten et al,2001
+,forb,Bjorkvoll et al,2009
+,forb,Bjorkvoll et al,2009
+,forb,Bjune,2000
+,forb,Boertje,1990
+,forb,Finstand and Kielland,2011
+,forb,Finstand and Kielland,2011
+,forb,Finstand and Kielland,2011
+,forb,Finstand and Kielland,2011
+,forb,Finstand and Kielland,2011
+,forb,Fischer and Gates,2005
+,forb,Ihl and Klein,2001
+,forb,Joly et al,2015
+,forb,Jung et al,2015
+,forb,Manseau et al.,1996
+,forb,Rozenfield et al,2012
+,forb,Staaland and White,1991
+,forb,Gustine et al.,2014
+,forb,Kazmin et al,2011
+,graminoid,Bjorkvoll et al,2009
+,graminoid,Bjune,2000
+,graminoid,Boertje,1990
+,graminoid,Ferguson et al.,2001
+,graminoid,Ferguson et al.,2001
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Gustine et al.,2014
+,graminoid,Joly et al,2015
+,graminoid,Mathiesen et al,2000
+,graminoid,Ophof et al.,2013
+,graminoid,Post and Klein,1996
+,graminoid,Schaefer et al.,2016
+,graminoid,Schaefer et al.,2016
+,graminoid,McNeill et al.,2020
+,graminoid,Hansen et al.,2019
+,graminoid,Schaefer and Pruitt,1991
+,graminoid,Skogland,1984
+,graminoid,Adamczewski et al,1988
+,graminoid,Barten et al,2001
+,graminoid,Finstand and Kielland,2011
+,graminoid,Finstand and Kielland,2011
+,graminoid,Finstand and Kielland,2011
+,graminoid,Finstand and Kielland,2011
+,graminoid,Finstand and Kielland,2011
+,graminoid,Fischer and Gates,2005
+,graminoid,Gustine et al.,2012
+,graminoid,Gustine et al.,2012
+,graminoid,Gustine et al.,2012
+,graminoid,Gustine et al.,2012
+,graminoid,Ihl and Klein,2001
+,graminoid,Jung et al,2015
+,graminoid,Kazmin and Abaturov,2011
+,graminoid,Kazmin et al,2011
+,graminoid,Kojola et al,1995
+,graminoid,Larter and Nagy,2004
+,graminoid,Staaland and White,1991
+,forb,Mathiesen et al,2000
+,horsetail,Ihl and Klein,2001
+,seaweed,Hansen and Aanes,2012
+,forb,Kazmin and Abaturov,2011
+,forb,Kazmin et al,2011
+,lichen,Adamczewski et al,1988
+,lichen,Barten et al,2001
+,lichen,Bjorkvoll et al,2009
+,lichen,Boertje,1984
+,lichen,Boertje,1990
+,lichen,Ferguson et al.,2001
+,lichen,Ferguson et al.,2001
+,lichen,Ferguson et al.,2001
+,lichen,Ferguson et al.,2001
+,lichen,Ferguson et al.,2001
+,lichen,Ferguson et al.,2001
+,lichen,Finstand and Kielland,2011
+,lichen,Finstand and Kielland,2011
+,lichen,Finstand and Kielland,2011
+,lichen,Finstand and Kielland,2011
+,lichen,Finstand and Kielland,2011
+,lichen,Fischer and Gates,2005
+,lichen,Gustine et al.,2012
+,lichen,Gustine et al.,2012
+,lichen,Gustine et al.,2012
+,lichen,Gustine et al.,2012
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Gustine et al.,2014
+,lichen,Ihl and Klein,2001
+,lichen,Joly and Cameron,2018
+,lichen,Joly et al,2015
+,lichen,Jung et al,2015
+,lichen,Kojola et al,1995
+,lichen,Leader-williams et al,1981
+,lichen,Mathiesen et al,2000
+,lichen,Ophof et al.,2013
+,lichen,Schaefer et al.,2016
+,lichen,Schaefer et al.,2016
+,lichen,Skogland,1984
+,lichen,Sormo et al,1999
+,lichen,Sormo et al,1999
+,lichen,Staaland and White,1991
+,lichen,Thompson and McCourt,1981
+,lichen,Trudell and White,1981
+,lichen,McNeill et al.,2020
+,litter,McNeill et al.,2020
+,litter,Skogland,1984
+,lichen,Manseau et al.,1996
+,graminoid,Skogland,1984
+,moss,Adamczewski et al,1988
+,moss,Barten et al,2001
+,moss,Bjorkvoll et al,2009
+,moss,Boertje,1984
+,moss,Boertje,1990
+,moss,Ferguson et al.,2001
+,moss,Ferguson et al.,2001
+,moss,Finstand and Kielland,2011
+,moss,Finstand and Kielland,2011
+,moss,Finstand and Kielland,2011
+,moss,Finstand and Kielland,2011
+,moss,Finstand and Kielland,2011
+,moss,Fischer and Gates,2005
+,moss,Gustine et al.,2012
+,moss,Gustine et al.,2012
+,moss,Gustine et al.,2012
+,moss,Gustine et al.,2012
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Gustine et al.,2014
+,moss,Ihl,2010
+,moss,Ihl and Klein,2001
+,moss,Johnson et al,2001
+,moss,Joly and Cameron,2018
+,moss,Joly et al,2015
+,moss,Jung et al,2015
+,moss,Kazmin and Abaturov,2011
+,moss,Kojola et al,1995
+,moss,Larter and Nagy,2004
+,moss,Manseau et al.,1996
+,moss,Mathiesen et al,2000
+,moss,Schaefer et al.,2016
+,moss,Schaefer et al.,2016
+,moss,Shank et al,1978
+,moss,Skogland,1984
+,moss,Sormo et al,1999
+,moss,Sormo et al,1999
+,moss,Staaland and White,1991
+,fungi,Boertje,1984
+,fungi,Boertje,1990
+,fungi,Joly and Cameron,2018
+,fungi,Thompson et al,2015
+,fungi,Thompson et al,2015
+,fungi,Thompson et al,2015
+,fungi,McNeill et al.,2020
+,rhizome,Finstand and Kielland,2011
+,rhizome,Finstand and Kielland,2011
+,rhizome,Finstand and Kielland,2011
+,rush,Jung et al,2015
+,seaweed,Leader-williams et al,1981
+,seaweed,Hansen et al.,2019
+,sedge,Adamczewski et al,1988
+,sedge,Barten et al,2001
+,sedge,Bjune,2000
+,sedge,Finstand and Kielland,2011
+,sedge,Finstand and Kielland,2011
+,sedge,Finstand and Kielland,2011
+,sedge,Finstand and Kielland,2011
+,sedge,Finstand and Kielland,2011
+,sedge,Fischer and Gates,2005
+,sedge,Ihl and Klein,2001
+,sedge,Jung et al,2015
+,sedge,Kojola et al,1995
+,sedge,Larter and Nagy,2004
+,sedge,Staaland and White,1991
+,shrub,Barten et al,2001
+,shrub,Ferguson et al.,2001
+,shrub,Ferguson et al.,2001
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Fischer and Gates,2005
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Gustine et al.,2014
+,shrub,Ihl and Klein,2001
+,shrub,Joly and Cameron,2018
+,shrub,Joly et al,2015
+,shrub,Jung et al,2015
+,shrub,Kazmin et al,2011
+,shrub,Kojola et al,1995
+,shrub,Ophof et al.,2013
+,shrub,Schaefer et al.,2016
+,shrub,Schaefer et al.,2016
+,shrub,Skogland,1984
+,shrub,Staaland and White,1991
+,shrub,Thompson and Barboza,2014
+,shrub,Thompson and Barboza,2014
+,tree,Adamczewski et al,1988
+,tree,Fischer and Gates,2005
+,tree,Jung et al,2015
+,NA,Gustine et al.,2012
+,NA,Gustine et al.,2012
+,NA,Gustine et al.,2012
+,NA,Gustine et al.,2012
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Finstand and Kielland,2011
+,shrub,Mathiesen et al,2000
+,lichen,Thomas and Edmonds,1983
+Saxifraga_oppositifolia,forb,Thomas and Edmonds,1983
+Salix_sp,shrub,Thomas and Edmonds,1983
+Dryas_integrifolia,forb,Thomas and Edmonds,1983
+,graminoid,Thomas and Edmonds,1983
+,moss,Thomas and Edmonds,1983
+,lichen,Thomas and Hervieux,1986
+,lichen,Thomas and Hervieux,1986
+,tree,Thomas and Hervieux,1986
+Stereocaulon_sp,lichen,Thomas and Hervieux,1986
+,tree,Thomas and Hervieux,1986
+,moss,Thomas and Hervieux,1986
+Vaccinium_vitis,forb,Thomas and Hervieux,1986
+,tree,Thomas and Hervieux,1986
+Ledum_sp,forb,Thomas and Hervieux,1986
+Alectoria_jubata,lichen,Bergerud,1972
+Cladonia_alpestris,lichen,Bergerud,1972
+Cladonia_mitis,lichen,Bergerud,1972
+Cladonia_rangiferina,lichen,Bergerud,1972
+Parmelia_sp,lichen,Bergerud,1972
+Calliergonella_schieberi,moss,Bergerud,1972
+Larix_laricina,tree,Bergerud,1972
+Scirpus_caespitosus,graminoid,Bergerud,1972
+Smilacina_trifolia,forb,Bergerud,1972
+Cornus_canadensis,forb,Bergerud,1972
+Rubus_chamaemorus,forb,Bergerud,1972
+Sanguisorba_canadensis,forb,Bergerud,1972
+Betula_pulma,shrub,Bergerud,1972
+Alnus_crispa,shrub,Bergerud,1972
+Amelanchier_bartramiana,shrub,Bergerud,1972
+Vaccinium_angustifolium,shrub,Bergerud,1972
+Chaedaphne_calyculata,shrub,Bergerud,1972
+Kalmia_angustifolia,shrub,Bergerud,1972
+Kalmia_polifolia,shrub,Bergerud,1972
+,lichen,Bezard et al. ,2015
+Vaccinium_sp,shrubs,Bezard et al. ,2015
+,moss,Bezard et al. ,2015
+,graminoid,Bezard et al. ,2015
+Cladina_sp,lichen,Mathiesen et al,1999
+Stereocaulon_sp,lichen,Mathiesen et al,1999
+Empetrum_sp,shrub,Mathiesen et al,1999
+Betula_nana,shrub,Mathiesen et al,1999
+Salix_sp,shrub,Mathiesen et al,1999
+Vaccinium_vitis,forb,Mathiesen et al,1999
+Vaccinium_myrtillus,forb,Mathiesen et al,1999
+,graminoid,Mathiesen et al,1999
+,moss,Mathiesen et al,1999
+,fungi,Mathiesen et al,1999
+Calluna_sp,forb,Mathiesen et al,1999
+,lichen,Larter and Nagy,1997
+,graminoid,Larter and Nagy,1997
+,forb,Larter and Nagy,1997
+,shrub,Larter and Nagy,1997
+,lichen,Gaare and Skogland,1975
+,graminoid,Gaare and Skogland,1975
+,shrub,Gaare and Skogland,1975
+,moss,Gaare and Skogland,1975
+,forb,Gaare and Skogland,1975
+,fungi,Gaare and Skogland,1975
