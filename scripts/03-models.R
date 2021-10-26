@@ -36,6 +36,182 @@ a1 <- glmmTMB(lichen ~
 
 summary(a1)
 performance::r2(a1)
+
+## remove subspecies
+a2 <- glmmTMB(lichen ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season
+a3 <- glmmTMB(lichen ~ 
+                subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove latitude
+a4 <- glmmTMB(lichen ~ 
+                subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove sympatry
+a5 <- glmmTMB(lichen ~ 
+                subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + season
+a6 <- glmmTMB(lichen ~ 
+                #subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + latitude
+a7 <- glmmTMB(lichen ~ 
+                #subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+
+## remove subspecies + sympatry
+a8 <- glmmTMB(lichen ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+a9 <- glmmTMB(lichen ~ 
+                subspecies + 
+                #season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+a10 <- glmmTMB(lichen ~ 
+                subspecies + 
+                #season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+
+## remove latitude + sympatry
+a11 <- glmmTMB(lichen ~ 
+                 subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only subspecies
+a12 <- glmmTMB(lichen ~ 
+                 subspecies + 
+                 #season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only season
+a13 <- glmmTMB(lichen ~ 
+                 #subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+a14 <- glmmTMB(lichen ~ 
+                 #subspecies + 
+                 #season + 
+                 latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+a15 <- glmmTMB(lichen ~ 
+                 #subspecies + 
+                 #season + 
+                 #latitude + 
+                 symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+MuMIn::AICc(a1, a2, a3, a4, a5, a6, a7, a8,
+     a9, a10, a11, a12, a13, a14, a15)
+
+
+
 saveRDS(a1, "output/lichen-model.RDS")
 
 
