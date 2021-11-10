@@ -22,5 +22,11 @@ name <- 'lat_ee'
 coords <- c('longitude', 'latitude')
 
 
+# Shorten column names manually (too long for shapefiles)
+long_names <- grep('year', colnames(DT), value = TRUE)
+short_names <- gsub('_of|_data_collection', '', long_names)
+setnames(DT, long_names, short_names)
+
+
 # Convert CSV to a zipped shapefile for Earth Engine upload
-csv_to_zipped_shp(DT, out_path, name, coords)
+zip_path <- csv_to_zipped_shp(DT, out_path, name, coords)
