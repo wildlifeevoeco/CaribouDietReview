@@ -13,7 +13,7 @@ function addDates(img) {
 
 // Function to sample an image in each region of supplied geometry
 function sampleregions (im) {
-	return(im.reduceRegions(geometry, ee.Reducer.mean(), 30)
+	return(im.reduceRegions(points, ee.Reducer.mean(), 30)
            .copyProperties(im));
 }
 
@@ -28,10 +28,12 @@ var npp = ee.ImageCollection('MODIS/006/MOD17A3HGF');
 // Features ====================================================================
 var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/lat_ee');
 
+var min_year = points.aggregate_min('min_year');
+var max_year = points.aggregate_min('max_year');
 
 // Filter ======================================================================
 // We want to filter the image collection to our area and time of interest
-npp = npp.filterDate('2018-01-01', '2020-01-01')
+npp = npp.filterDate(min_year, max_year);
 
 
 // Process images ==============================================================
