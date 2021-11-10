@@ -4,11 +4,12 @@
 
 # Packages
 library(data.table)
-library(wk)
+library(sf)
+library(zip)
 
 
 # Functions
-source('R/fwrite_wkt.R')
+source('R/csv_to_zipped_shp.R')
 
 
 # Data
@@ -21,5 +22,5 @@ name <- 'lat_ee'
 coords <- c('longitude', 'latitude')
 
 
-# Convert to CSV with WKT for lat/long
-fwrite_wkt(DT, out_path, name, coords)
+# Convert CSV to a zipped shapefile for Earth Engine upload
+csv_to_zipped_shp(DT, out_path, name, coords)
