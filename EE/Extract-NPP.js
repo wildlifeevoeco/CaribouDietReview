@@ -17,24 +17,12 @@ function sampleregions (im) {
            .copyProperties(im));
 }
 
-// TODO: add QA mask
-
-
 // Images ======================================================================
 // MOD17A3HGF.006: Terra Net Primary Production Gap-Filled Yearly Global 500m
 var npp = ee.ImageCollection('MODIS/006/MOD17A3HGF');
 
-
 // Features ====================================================================
 var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/lat_ee');
-
-var min_year = points.aggregate_min('min_year');
-var max_year = points.aggregate_min('max_year');
-
-// Filter ======================================================================
-// We want to filter the image collection to our area and time of interest
-npp = npp.filterDate(min_year, max_year);
-
 
 // Process images ==============================================================
 npp = npp.map(addDates);
@@ -47,9 +35,8 @@ var sample = npp.map(sampleregions)
 
 
 // Check output ================================================================
-// Print results to the console
 print(sample.limit(10));
-
+print(sample.size());
 
 // Export ======================================================================
 Export.table.toDrive({
