@@ -2,6 +2,7 @@
 library(data.table)
 library(glmmTMB)
 library(broom)
+library(MuMIn)
 library(ggplot2)
 
 ## load data
@@ -207,12 +208,16 @@ a15 <- glmmTMB(lichen ~
                family=beta_family,
                data = sub)
 
-MuMIn::AICc(a1, a2, a3, a4, a5, a6, a7, a8,
-     a9, a10, a11, a12, a13, a14, a15)
+lichen_mods <- MuMIn::AICc(a1, a2, a3, a4, a5, a6, a7, a8,
+                           a9, a10, a11, a12, a13, a14, a15)
+
+lichen_mods$deltaAIC <- lichen_mods$AICc - min(lichen_mods$AICc) 
+lichen_mods$weights <- round(Weights(AICc(a1, a2, a3, a4, a5, a6, a7, a8,
+                                    a9, a10, a11, a12, a13, a14, a15)),3)
 
 
 
-saveRDS(a1, "output/lichen-model.RDS")
+saveRDS(a5, "output/lichen-model.RDS")
 
 
 ############################# 
@@ -230,15 +235,194 @@ b1 <- glmmTMB(graminoid ~
               ziformula=~1,
               family=beta_family,
               data = sub)
+
 summary(b1)
-sjstats::r2(b1)
-saveRDS(b1, "output/graminoid-model.RDS")
+performance::r2(b1)
+
+## remove subspecies
+b2 <- glmmTMB(graminoid ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season
+b3 <- glmmTMB(graminoid ~ 
+                subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove latitude
+b4 <- glmmTMB(graminoid ~ 
+                subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove sympatry
+b5 <- glmmTMB(graminoid ~ 
+                subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + season
+b6 <- glmmTMB(graminoid ~ 
+                #subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + latitude
+b7 <- glmmTMB(graminoid ~ 
+                #subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+
+## remove subspecies + sympatry
+b8 <- glmmTMB(graminoid ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+b9 <- glmmTMB(graminoid ~ 
+                subspecies + 
+                #season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+b10 <- glmmTMB(graminoid ~ 
+                 subspecies + 
+                 #season + 
+                 latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+
+## remove latitude + sympatry
+b11 <- glmmTMB(graminoid ~ 
+                 subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only subspecies
+b12 <- glmmTMB(graminoid ~ 
+                 subspecies + 
+                 #season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only season
+b13 <- glmmTMB(graminoid ~ 
+                 #subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+b14 <- glmmTMB(graminoid ~ 
+                 #subspecies + 
+                 #season + 
+                 latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+b15 <- glmmTMB(graminoid ~ 
+                 #subspecies + 
+                 #season + 
+                 #latitude + 
+                 symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+graminoid_mods <- MuMIn::AICc(b1, b2, b3, b4, b5, b6, b7, b8,
+                           b9, b10, b11, b12, b13, b14, b15)
+
+graminoid_mods$deltaAIC <- graminoid_mods$AICc - min(graminoid_mods$AICc) 
+graminoid_mods$weights <- round(Weights(AICc(b1, b2, b3, b4, b5, b6, b7, b8,
+                                             b9, b10, b11, b12, b13, b14, b15)),3)
+
+
+saveRDS(b6, "output/graminoid-model.RDS")
 
 
 ##################################### 
 ########## VASCULAR PLANTS ##########
 ##################################### 
-
 ## global model
 c1 <- glmmTMB(vascular ~ 
                 subspecies + 
@@ -250,7 +434,187 @@ c1 <- glmmTMB(vascular ~
               ziformula=~1,
               family=beta_family,
               data = sub)
+
 summary(c1)
-sjstats::r2(c1)
+performance::r2(c1)
+
+## remove subspecies
+c2 <- glmmTMB(vascular ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season
+c3 <- glmmTMB(vascular ~ 
+                subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove latitude
+c4 <- glmmTMB(vascular ~ 
+                subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove sympatry
+c5 <- glmmTMB(vascular ~ 
+                subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + season
+c6 <- glmmTMB(vascular ~ 
+                #subspecies + 
+                #season + 
+                latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove subspecies + latitude
+c7 <- glmmTMB(vascular ~ 
+                #subspecies + 
+                season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+
+## remove subspecies + sympatry
+c8 <- glmmTMB(vascular ~ 
+                #subspecies + 
+                season + 
+                latitude + 
+                #symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+c9 <- glmmTMB(vascular ~ 
+                subspecies + 
+                #season + 
+                #latitude + 
+                symp + 
+                data + 
+                (1|author_yr),
+              ziformula=~1,
+              family=beta_family,
+              data = sub)
+
+## remove season + latitude
+c10 <- glmmTMB(vascular ~ 
+                 subspecies + 
+                 #season + 
+                 latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+
+## remove latitude + sympatry
+c11 <- glmmTMB(vascular ~ 
+                 subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only subspecies
+c12 <- glmmTMB(vascular ~ 
+                 subspecies + 
+                 #season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only season
+c13 <- glmmTMB(vascular ~ 
+                 #subspecies + 
+                 season + 
+                 #latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+c14 <- glmmTMB(vascular ~ 
+                 #subspecies + 
+                 #season + 
+                 latitude + 
+                 #symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+## only latitude
+c15 <- glmmTMB(vascular ~ 
+                 #subspecies + 
+                 #season + 
+                 #latitude + 
+                 symp + 
+                 data + 
+                 (1|author_yr),
+               ziformula=~1,
+               family=beta_family,
+               data = sub)
+
+vascular_mods <- MuMIn::AICc(c1, c2, c3, c4, c5, c6, c7, c8,
+                             c9, c10, c11, c12, c13, c14, c15)
+
+vascular_mods$deltaAIC <- vascular_mods$AICc - min(vascular_mods$AICc) 
+vascular_mods$weights <- round(Weights(AICc(c1, c2, c3, c4, c5, c6, c7, c8,
+                                             c9, c10, c11, c12, c13, c14, c15)),3)
+
+
 saveRDS(c1, "output/vascular-model.RDS")
 
