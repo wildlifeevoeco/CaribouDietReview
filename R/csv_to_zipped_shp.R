@@ -1,4 +1,4 @@
-#' CSV to Shapefile for Earth Engine Upload
+#' CSV to zipped Shapefile for Earth Engine Upload
 #' 
 #' @author Alec L. Robitaille
 #' @param out_path character; name of output folder for local assets
@@ -7,14 +7,20 @@
 #' @param name name of dataset
 #' @export
 #' @examples
-csv_to_shp <- function(DT, out_path, name, coords = c('x_long', 'y_lat')) {
+csv_to_zipped_shp <- function(DT, out_path, name, coords = c('x_long', 'y_lat')) {
   check_col(DT, coords[1])
   check_col(DT, coords[2])
   
-  out <- paste0(file.path(out_path, name), '.shp')
+  out_dir <- file.path(out_path, name)
+  out_zip <- paste0(out_dir, '.zip')
+  out_shp <- paste0(file.path(out_dir, name), '.shp')
+  
+  if (!dir.exists(out_dir)) dir.create(out_dir)
+  
   
   if (DT[is.na(get(coords[1])), .N] > 0 | DT[is.na(get(coords[2])), .N] > 0) {
     warning('dropping rows with NAs in coordinate columns')
+    DT <- DT[!(is.na(get(coords[1])) | is.na(get(coords[2])))]
   }
   
   st_write(
@@ -22,10 +28,16 @@ csv_to_shp <- function(DT, out_path, name, coords = c('x_long', 'y_lat')) {
       DT,
       coords = coords
     ),
-    out
+    out_shp,
+    append = FALSE
   )
   
-  out
+  zip::zip(
+    out_zip,
+    out_dir
+  )
+  
+  out_zip
 }
 
 
