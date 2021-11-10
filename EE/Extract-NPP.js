@@ -22,27 +22,26 @@ function sampleregions (im) {
 
 // Images ======================================================================
 // MOD17A3HGF.006: Terra Net Primary Production Gap-Filled Yearly Global 500m
-var npp = ee.ImageCollection("MODIS/006/MOD17A3HGF");
+var npp = ee.ImageCollection('MODIS/006/MOD17A3HGF');
+
+
+// Features ====================================================================
+var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/lat_ee');
 
 
 // Filter ======================================================================
 // We want to filter the image collection to our area and time of interest
 npp = npp.filterDate('2018-01-01', '2020-01-01')
-       .filterBounds(geometry);
 
 
 // Process images ==============================================================
-// Mask clouds and calculate NDVI
-npp = npp.map(masknppsr)
-       .map(applyScaleFactors)
-       .map(addDates)
-       .map(calcNDVI);
+npp = npp.map(addDates);
 
 
 // Sample images ===============================================================
 // Sample images using our geometry
 var sample = npp.map(sampleregions)
-               .flatten();
+                .flatten();
 
 
 // Check output ================================================================
