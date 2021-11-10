@@ -18,7 +18,8 @@ df$author_yr <- as.factor(paste(df$authors, df$year, sep = " "))
 df <- df[authors != "Denryter et al." & 
           authors != "White and Trudell" &
           authors != "McNeill et al." & 
-          authors != "Thompson et al"]
+          authors != "Thompson et al" & 
+          authors != "Ihl"] ## remove Ihl 2010 because this paper just looks at moss
 
 unique(df$author_yr)
 
