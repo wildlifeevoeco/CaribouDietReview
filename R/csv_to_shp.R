@@ -5,22 +5,26 @@
 #' @param coords character vector; column names of coordinates in EPSG 4326.
 #' @param DT data.table
 #' @param name name of dataset
-#'
-#' @return
-#'
-#' Path to output file for passing to upload_asset, and writes out a CSV.
 #' @export
-#'
 #' @examples
-fwrite_wkt <- function(DT, outpath, name, coords = c('x_long', 'y_lat')) {
+csv_to_shp <- function(DT, out_path, name, coords = c('x_long', 'y_lat')) {
   check_col(DT, coords[1])
   check_col(DT, coords[2])
   
-  out <- paste0(file.path(outpath, name), '.csv')
+  out <- paste0(file.path(out_path, name), '.shp')
   
-  DT[, WKT := wk::as_wkt(wk::xy(.SD[[1]], .SD[[2]])), .SDcols = coords]
+  if (DT[is.na(get(coords[1])), .N] > 0 | DT[is.na(get(coords[2])), .N] > 0) {
+    warning('dropping rows with NAs in coordinate columns')
+  }
   
-  data.table::fwrite(DT, out)
+  st_write(
+    st_as_sf(
+      DT,
+      coords = coords
+    ),
+    out
+  )
+  
   out
 }
 
