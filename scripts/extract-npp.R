@@ -50,3 +50,7 @@ npp[is.na(Npp), why := 'NA in NPP image']
 # Merge back onto full data (with NAs in coordinates)
 DT[is.na(longitude) | is.na(latitude), why := 'NA in coordinates']
 
+# TODO: why duplicated rows?
+merge(DT,
+      npp,
+      by = c('author_yr', 'latitude'))
