@@ -37,6 +37,8 @@ csv_to_zipped_shp <- function(DT, out_path, name, coords = c('x_long', 'y_lat'))
     out_dir
   )
   
+  unlink(out_dir, recursive = TRUE)
+  
   out_zip
 }
 
