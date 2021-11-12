@@ -13,18 +13,18 @@ source('R/csv_to_zipped_shp.R')
 
 
 # Data
-DT <- fread('input/lat.csv')
+DT <- fread('output/clean-data.csv')
 
 
 # Variables
 out_path <- 'output'
-name <- 'lat_ee'
+name <- 'clean-data'
 coords <- c('longitude', 'latitude')
 
 
 # Shorten column names manually (too long for shapefiles)
-long_names <- grep('year', colnames(DT), value = TRUE)
-short_names <- gsub('_of|_data_collection', '', long_names)
+long_names <- setdiff(colnames(DT), coords)
+short_names <- abbreviate(long_names)
 setnames(DT, long_names, short_names)
 
 
