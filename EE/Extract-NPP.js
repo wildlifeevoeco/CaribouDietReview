@@ -22,7 +22,7 @@ function sampleregions (im) {
 var npp = ee.ImageCollection('MODIS/006/MOD17A3HGF');
 
 // Features ====================================================================
-var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/lat_ee');
+var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/clean-data');
 
 // Process images ==============================================================
 npp = npp.map(addDates);
