@@ -35,10 +35,11 @@ zip_path <- csv_to_zipped_shp(DT, out_path, name, coords)
 # ...
 
 # Load output
-npp <- fread('output/lat-ee-npp.csv')
+npp <- fread('output/clean-data-npp.csv')
 
 # Replace names
 setnames(npp, short_names, long_names)
+setnames(DT, short_names, long_names)
 
 # Remove extra columns
 npp[, `.geo` := NULL]
@@ -50,7 +51,24 @@ npp[is.na(Npp), why := 'NA in NPP image']
 # Merge back onto full data (with NAs in coordinates)
 DT[is.na(longitude) | is.na(latitude), why := 'NA in coordinates']
 
-# TODO: why duplicated rows?
-merge(DT,
-      npp,
-      by = c('author_yr', 'latitude'))
+# Using forbs, graminoid, etc for matching duplicated observations
+#  within study*author*year*season*subspecies
+m <- merge(
+  npp,
+  DT,
+  all = TRUE,
+  by = c(
+    'author_yr',
+    'season',
+    'Subspecies',
+    'forbs',
+    'graminoid',
+    'horsetail',
+    'lichen'
+  )
+)
+
+# Clean up why
+m[, why := paste(why.x, why.y, sep = ', ')]
+m[, why := gsub('NA,|, NA$', '', why)]
+m[, c('why.x', 'why.y') := NULL]
