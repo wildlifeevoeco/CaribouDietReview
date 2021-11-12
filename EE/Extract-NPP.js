@@ -41,6 +41,6 @@ print(sample.size());
 // Export ======================================================================
 Export.table.toDrive({
   collection: sample,
-  description: 'lat-ee-npp',
+  description: 'clean-data-npp',
   folder: 'Caribou-foraging'
 });
