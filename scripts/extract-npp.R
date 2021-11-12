@@ -57,18 +57,6 @@ m <- merge(
   npp,
   DT,
   all = TRUE,
-  by = c(
-    'author_yr',
-    'season',
-    'Subspecies',
-    'forbs',
-    'graminoid',
-    'horsetail',
-    'lichen'
-  )
+  by = intersect(colnames(npp), colnames(DT))
 )
 
-# Clean up why
-m[, why := paste(why.x, why.y, sep = ', ')]
-m[, why := gsub('NA,|, NA$', '', why)]
-m[, c('why.x', 'why.y') := NULL]
