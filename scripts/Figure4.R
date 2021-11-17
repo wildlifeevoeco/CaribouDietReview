@@ -9,18 +9,18 @@ b1 <- readRDS("output/graminoid-model.RDS")
 c1 <- readRDS("output/vascular-model.RDS")
 
 ## pull out fixed effects
-coefs <- data.table(var = rbind(data.table(rownames(data.frame(summary(a1)[6]$coefficients$cond[,1]))),
-                                data.table(rownames(data.frame(summary(b1)[6]$coefficients$cond[,1]))),
-                                data.table(rownames(data.frame(summary(c1)[6]$coefficients$cond[,1])))),
+coefs <- data.table(var = rbind(data.table(rownames(data.frame(summary(a1)[6]$coefficients$cond[,1]))), ## lichen
+                                data.table(rownames(data.frame(summary(b1)[6]$coefficients$cond[,1]))), ## graminoids
+                                data.table(rownames(data.frame(summary(c1)[6]$coefficients$cond[,1])))), ## vascular plants
                     coef = rbind(data.table(summary(a1)[6]$coefficients$cond[,1]), 
                                  data.table(summary(b1)[6]$coefficients$cond[,1]), 
                                  data.table(summary(c1)[6]$coefficients$cond[,1])),
                     se = rbind(data.table(summary(a1)[6]$coefficients$cond[,2]), 
                                data.table(summary(b1)[6]$coefficients$cond[,2]), 
                                data.table(summary(c1)[6]$coefficients$cond[,2])),
-                    model = c(rep("Lichen", 13), 
-                              rep("Graminoids", 13), 
-                              rep("Vascular plants", 13)))
+                    model = c(rep("Lichen", 11), 
+                              rep("Graminoids", 3),
+                              rep("Vascular plants", 7)))
 setnames(coefs, c("var.V1", "coef.V1", "se.V1"), c("var", "coef", "se"))
 
 coefs
@@ -52,7 +52,7 @@ ggplot(data = coefs) +
                               `season3-Autumn` = "Season (Autumn)", 
                               `season2-Summer` = "Season (Summer)", 
                               `symp` = "Number of sympatric ungulates", 
-                              `latitude` = "Latitude",
+                              `scale(Npp)` = "Net primary productivity",
                               `datarumen` = "Data type (Rumen)")) +
   theme(
     legend.title = element_blank(),
