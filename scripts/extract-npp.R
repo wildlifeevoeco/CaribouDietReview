@@ -60,3 +60,10 @@ m <- merge(
   by = intersect(colnames(npp), colnames(DT))
 )
 
+m2 <- m[, mean(Npp, na.rm = T), by = c("author_yr", "season", "Subspecies", 
+                                       "data type", "sympatric_ungulates", 
+                                       "lichen", "vascular", "graminoid")]
+
+setnames(m2, "V1", "Npp")
+
+fwrite(m2, "output/clean-data-npp2.csv")
