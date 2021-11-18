@@ -66,4 +66,4 @@ m2 <- m[, mean(Npp, na.rm = T), by = c("author_yr", "season", "Subspecies",
 
 setnames(m2, "V1", "Npp")
 
-fwrite(m2, "output/clean-data-npp2.csv")
+fwrite(m2, "output/clean-data-all.csv")
