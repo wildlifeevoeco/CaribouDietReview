@@ -10,6 +10,11 @@ function addDates(img) {
   return img.addBands(ee.Image([date.get('year')]).rename(['year'])).float();
 }
 
+// Function to buffer points
+function bufferPoints(pt) {
+  return pt.buffer(buffer_size);
+}
+
 
 // Function to sample an image in each region of supplied geometry
 function sampleregions (im) {
