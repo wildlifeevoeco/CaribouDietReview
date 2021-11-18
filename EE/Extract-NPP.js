@@ -29,6 +29,10 @@ var npp = ee.ImageCollection('MODIS/006/MOD17A3HGF');
 // Features ====================================================================
 var points = ee.FeatureCollection('users/robitalec/WEEL/Caribou-foraging/clean-data');
 
+// Buffer points
+var buffer_size = 50000;
+points = points.map(bufferPoints);
+
 // Process images ==============================================================
 npp = npp.map(addDates);
 
@@ -42,6 +46,8 @@ var sample = npp.map(sampleregions)
 // Check output ================================================================
 print(sample.limit(10));
 print(sample.size());
+Map.addLayer(npp.first())
+Map.addLayer(points)
 
 // Export ======================================================================
 Export.table.toDrive({
