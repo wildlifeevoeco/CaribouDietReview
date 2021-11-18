@@ -1,121 +1,121 @@
 lichen,graminoid,shrubs,forbs,horsetail,tree,moss,fungi,vascular,data type,latitude,longitude,sympatric_ungulates,aug_daily_average,Subspecies,season,authors,author_yr
-20,15,38,7,0,0,20,,45,fecal,61.43,143.25,5,11.3,2-Barren Ground,2-Summer,Barten et al,Barten et al 2001
-1.3,63.7,11.5,2.6,1.3,0,10.6,,14.1,rumen,78,-15,0,,5-Reindeer,4-Winter,Bjorkvoll et al,Bjorkvoll et al 2009
-0.2,60.7,8.1,19.6,2.4,0,1.9,,27.7,rumen,78,-15,0,,5-Reindeer,2-Summer,Bjorkvoll et al,Bjorkvoll et al 2009
-2.4,32.3,28.2,4,0.3,0,26.4,,32.2,rumen,78,-15,4,,5-Reindeer,5-Spring,Bjorkvoll et al,Bjorkvoll et al 2009
-38,7,52,0,1,0,3,0,52,fecal,63.3,150.3,6,10.2,2-Barren Ground,5-Spring,Boertje,Boertje 1984
-28,5,58,0,1,0,2,6,58,fecal,63.3,150.3,6,10.2,2-Barren Ground,2-Summer,Boertje,Boertje 1984
-68,4,11,0,2,0,13,4,11,fecal,63.3,150.3,6,10.2,2-Barren Ground,3-Autumn,Boertje,Boertje 1984
-66,4,11,0,1,0,18,1,11,fecal,63.3,150.3,6,10.2,2-Barren Ground,4-Winter,Boertje,Boertje 1984
-56.2,13.9,14.3,1.6,3.5,0,10.4,,15.9,fecal,65.285,164.675,0,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
-49,13.8,23.3,2.7,6.7,0,4.4,,26,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
-62.3,14.1,14.9,3.4,3.2,0,2.1,,18.3,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
-81.3,7.9,7.5,1.7,0,0,2.7,,9.2,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,3-Autumn,Finstand and Kielland,Finstand and Kielland 2011
-71.8,15.3,6.3,0.9,1.2,0,5.4,,7.2,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
-65.1,11.1,5,2.4,4.3,0,8.6,,7.4,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
-36.8,32.4,28.3,0.8,0.9,0,0.6,,29.1,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
-24.1,40.3,31.7,1.8,1.2,0,0.6,,33.5,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
-68.7,12.4,5.3,2.3,5.7,0,3.6,,7.6,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,3-Autumn,Finstand and Kielland,Finstand and Kielland 2011
-71.9,12.5,4.6,0.16,0.2,0,9.4,,4.76,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
-68.8,10.3,7.9,1.3,4.4,0,7.3,,9.2,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
-38.9,10.4,46.1,1.2,0,0,3.4,,47.3,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
-76.6,4.8,12.7,2.8,0,0,3.1,,15.5,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
-56,12.1,6.1,1,14.2,0,8.2,,7.1,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
-49.4,17.9,15.5,0.6,8.5,0,4.8,,16.1,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
-48.8,5.3,20.9,3,7.2,0,5.9,,23.9,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
-76,3.1,7.7,0,0,0,13.3,,7.7,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
-31.4,16.7,42.8,2.3,4.4,0,1.8,,45.1,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
-65.3,7.4,6.4,4.1,,0.1,2.7,,10.6,fecal,62,137,2,12.8,4-Woodland,4-Winter,Fischer and Gates,Fischer and Gates 2005
-76,6,7,1,,0,9,,8,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-61,9,7,0,,0,24,,7,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-47,7,10,13,,0,23,,23,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-68,5,15,0,,0,11,,15,fecal,66,160,2,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-77,6,7,4,,0,6,,11,fecal,66,160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-60,7,18,0,,0,13,,18,fecal,66,160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-72,1,10,4,,0,13,,14,fecal,62,138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2012
-68,3,4,4,,0,20,,8,fecal,62,138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2012
-54,15,15,0,,0,16,,15,fecal,63,150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-77,5,5,0,,0,13,,5,fecal,63,150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
-76,6,8,1,,0,9,,9,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-61,9,7,0,,0,24,,7,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-47,7,10,13,,0,24,,23,fecal,69,150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-72,2,11,4,,0,13,,15,fecal,62,138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2014
-68,3,4,4,,0,20,,8,fecal,62,138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2014
-54,15,15,0,,0,16,,15,fecal,63,150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-77,5,5,0,,0,13,,5,fecal,63,150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-68,5,15,0,,0,11,,15,fecal,66,160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-77,6,7,4,,0,6,,11,fecal,66,160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-60,7,18,1,,0,13,,19,fecal,66,160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-90,1,4,1,,0,4,,5,fecal,69,117,1,9,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-53,10,16,4,,0,18,,20,fecal,66,115,1,8.8,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-75,5,6,1,,0,13,,7,fecal,67,52,1,,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
-55.5,7.2,2.9,12,15.3,0,7,,14.9,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Ihl and Klein,Ihl and Klein 2001
-53.6,12.1,8.6,8.4,7,0,10.4,,17,fecal,65.285,164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Ihl and Klein,Ihl and Klein 2001
-65.9,4.2,11.3,5,,0,8.1,3.6,16.3,fecal,67.1,156,3,11.4,2-Barren Ground,3-Autumn,Joly and Cameron,Joly and Cameron 2018
-70.8,6.7,9.1,6,,0,11,0,15.1,fecal,67.1,156,3,11.4,2-Barren Ground,4-Winter,Joly and Cameron,Joly and Cameron 2018
-68.4,6.3,8.2,2.9,,0,14,,11.1,fecal,67.1,156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
-72.5,5.2,6.8,2.6,,0,13,,9.4,fecal,67.1,156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
-72.8,5.8,7.6,1.7,,0,11.9,,9.3,fecal,67.1,156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
-90.5,3.3,2.1,0.8,,0,3.1,,2.9,fecal,67.1,152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
-91.5,1,2.2,1.1,,0,3.9,,3.3,fecal,67.1,152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
-88.8,1.6,4.2,0.4,,0,4.7,,4.6,fecal,67.1,152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
-30.5,29.9,23.3,4.5,,0,11.8,,27.8,fecal,67.8,163.5,2,9.4,4-Woodland,2-Summer,Jung et al,Jung et al 2015
-55.5,13,8,9.6,,0,13.8,,17.6,fecal,67.8,163.5,2,9.4,4-Woodland,4-Winter,Jung et al,Jung et al 2015
-0,22.4,43.1,0,,0,7.4,,43.1,fecal,71.11,179.38,1,14.1,5-Reindeer,2-Summer,Kazmin et al,Kazmin et al 2011
-0,15.9,37.9,0,,0,4.5,,37.9,fecal,71.11,179.38,1,14.1,5-Reindeer,3-Autumn,Kazmin et al,Kazmin et al 2011
-0,6.3,49.6,0,,0,18.1,,49.6,fecal,71.11,179.38,1,14.1,5-Reindeer,4-Winter,Kazmin et al,Kazmin et al 2011
-53.9,10.1,16.5,0,,0,7.8,,16.5,fecal,69,-26,2,,5-Reindeer,3-Autumn,Kojola et al,Kojola et al 1995
-53.2,6.3,22.9,0,,0,10.7,,22.9,fecal,69,-26,2,,5-Reindeer,4-Winter,Kojola et al,Kojola et al 1995
-10.9,20.2,44.4,0,,0,,,44.4,fecal,72.5,122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
-0,23,23.4,0,,0,,,23.4,fecal,72.5,122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
-0,29.2,32.8,0,,0,,,32.8,fecal,72.5,122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
-0,9,41.9,0,,0,,,41.9,fecal,72.5,122,1,3.7,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 2004
-0,13.6,43.9,0,,0,,,43.9,fecal,72.5,122,1,3.7,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 2004
-0,23,54.3,0,,0,,,54.3,fecal,72.5,122,1,3.7,1-Peary,1-Calving,Larter and Nagy,Larter and Nagy 2004
-0,4.7,86.8,0,,0,,,86.8,fecal,72.5,122,1,3.7,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 2004
-0,15.3,63.9,0,,0,,,63.9,fecal,72.5,122,1,3.7,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 2004
-0,28.4,31.5,0,,0,,,31.5,fecal,72.5,122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
-0,25.9,38,0,,0,,,38,fecal,72.5,122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
-0,18.8,41.9,0,,0,,,41.9,fecal,72.5,122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
-0,26.3,21.2,0,,0,,,21.2,fecal,72.5,122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
-14.8,60.9,25.1,0,,0,6.1,,25.1,rumen,69,-23,1,,5-Reindeer,3-Autumn,Mathiesen et al,Mathiesen et al 2000
-14.4,53.4,27.1,0,,0,9.6,,27.1,rumen,69,-23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
-13.3,62.3,16.2,0,,0,9.9,,16.2,rumen,69,-23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
-25.8,51.3,17.2,0,,0,7.4,,17.2,rumen,69,-23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
-41.7,10,33.7,0,,0,15.6,,33.7,fecal,69.3,-27,1,,5-Reindeer,4-Winter,Ophof et al.,Ophof et al. 2013
-45.1,18.3,22.2,0,,0,15.3,,22.2,fecal,69.3,-27,1,,5-Reindeer,5-Spring,Ophof et al.,Ophof et al. 2013
-26.6,,0,0,,31.1,,,31.1,fecal,51.39,117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
-62.2,,0,0,,35.4,,,35.4,fecal,51.39,117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
-84,,0,0,,14,,,14,fecal,51.39,117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
-8.8,,0,0,,20.2,,,20.2,fecal,51.39,117.52,1,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
-19.3,18.37,0.369,0.065,0,0,0.12,,0.434,fecal,71.11,179.38,1,14.1,5-Reindeer,4-Winter,Rozenfield et al,Rozenfield et al 2012
-0,0.342,0.48,0.1,0,0,0.07,,0.58,fecal,71.11,179.38,1,14.1,5-Reindeer,5-Spring,Rozenfield et al,Rozenfield et al 2012
-0.01,0.64,0.173,0.121,0.013,0,0.039,,0.294,fecal,71.11,179.38,1,14.1,5-Reindeer,2-Summer,Rozenfield et al,Rozenfield et al 2012
-0.02,0.536,0.246,0.055,0.026,0,0.11,,0.301,fecal,71.11,179.38,2,14.1,5-Reindeer,3-Autumn,Rozenfield et al,Rozenfield et al 2012
-34,13,43,0,,0,,,43,fecal,48,55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
-44,15,17,0,,0,,,17,fecal,48,55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
-34,14,38,0,,0,,,38,fecal,48,55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
-40,2,50,0,,0,,,50,fecal,48,55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
-40,10,18,0,,0,,,18,fecal,48,55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
-64,1,15,0,,0,,,15,fecal,48,55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
-57,19,19,0,,0,,,19,fecal,48,55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
-47,7.4,13,0,,0,,,13,fecal,48,55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
-65,15,12,0,,0,,,12,fecal,48,55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
-30,18,8.2,0,,0,,,8.2,fecal,48,55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
-24,21,36,0,,0,,,36,fecal,48,55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
-11,11,18.7,0,,0,,,18.7,fecal,48,55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
-63,0.2,12.7,0,,0,,,12.7,fecal,48,55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
-46,4.2,11.3,0,,0,,,11.3,fecal,48,55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
-53.5,6.7,22.5,0,,0,,,22.5,fecal,48,55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
-46.8,4.6,8.7,0,,0,,,8.7,fecal,48,55,0,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
-0,68.2,9.1,30.2,5.7,0,26.9,,39.3,rumen,79.45,-20,0,,5-Reindeer,3-Autumn,Sormo et al,Sormo et al 1999
-0.6,55.1,7.7,87.2,27.8,0,23.4,,94.9,rumen,79.45,-20,0,,5-Reindeer,3-Autumn,Sormo et al,Sormo et al 1999
-0,30.3,16.3,65.4,0,0,10,,81.7,rumen,79.45,-20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
-2.2,35.5,4.6,0,0,0,54.2,,4.6,rumen,79.45,-20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
-1.7,39.7,15.8,60.7,3.7,0,6.1,,76.5,rumen,79.45,-20,0,,5-Reindeer,2-Summer,Sormo et al,Sormo et al 1999
-0.3,13,12.7,67,0,0,7.3,,79.7,rumen,79.45,-20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
-2,41,10,2,,0,43,,12,rumen,77.9,-15,0,,5-Reindeer,4-Winter,Staaland and White,Staaland and White 1991
-20,42,7,8,,0,16,,15,rumen,77.9,-15,2,,5-Reindeer,2-Summer,Staaland and White,Staaland and White 1991
+20,15,38,7,0,0,20,,45,fecal,61.43,-143.25,5,11.3,2-Barren Ground,2-Summer,Barten et al,Barten et al 2001
+1.3,63.7,11.5,2.6,1.3,0,10.6,,14.1,rumen,78,15,0,,5-Reindeer,4-Winter,Bjorkvoll et al,Bjorkvoll et al 2009
+0.2,60.7,8.1,19.6,2.4,0,1.9,,27.7,rumen,78,15,0,,5-Reindeer,2-Summer,Bjorkvoll et al,Bjorkvoll et al 2009
+2.4,32.3,28.2,4,0.3,0,26.4,,32.2,rumen,78,15,4,,5-Reindeer,5-Spring,Bjorkvoll et al,Bjorkvoll et al 2009
+38,7,52,0,1,0,3,0,52,fecal,63.3,-150.3,6,10.2,2-Barren Ground,5-Spring,Boertje,Boertje 1984
+28,5,58,0,1,0,2,6,58,fecal,63.3,-150.3,6,10.2,2-Barren Ground,2-Summer,Boertje,Boertje 1984
+68,4,11,0,2,0,13,4,11,fecal,63.3,-150.3,6,10.2,2-Barren Ground,3-Autumn,Boertje,Boertje 1984
+66,4,11,0,1,0,18,1,11,fecal,63.3,-150.3,6,10.2,2-Barren Ground,4-Winter,Boertje,Boertje 1984
+56.2,13.9,14.3,1.6,3.5,0,10.4,,15.9,fecal,65.285,-164.675,0,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
+49,13.8,23.3,2.7,6.7,0,4.4,,26,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
+62.3,14.1,14.9,3.4,3.2,0,2.1,,18.3,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
+81.3,7.9,7.5,1.7,0,0,2.7,,9.2,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,3-Autumn,Finstand and Kielland,Finstand and Kielland 2011
+71.8,15.3,6.3,0.9,1.2,0,5.4,,7.2,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
+65.1,11.1,5,2.4,4.3,0,8.6,,7.4,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
+36.8,32.4,28.3,0.8,0.9,0,0.6,,29.1,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
+24.1,40.3,31.7,1.8,1.2,0,0.6,,33.5,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
+68.7,12.4,5.3,2.3,5.7,0,3.6,,7.6,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,3-Autumn,Finstand and Kielland,Finstand and Kielland 2011
+71.9,12.5,4.6,0.16,0.2,0,9.4,,4.76,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
+68.8,10.3,7.9,1.3,4.4,0,7.3,,9.2,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
+38.9,10.4,46.1,1.2,0,0,3.4,,47.3,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
+76.6,4.8,12.7,2.8,0,0,3.1,,15.5,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
+56,12.1,6.1,1,14.2,0,8.2,,7.1,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,5-Spring,Finstand and Kielland,Finstand and Kielland 2011
+49.4,17.9,15.5,0.6,8.5,0,4.8,,16.1,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
+48.8,5.3,20.9,3,7.2,0,5.9,,23.9,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,2-Summer,Finstand and Kielland,Finstand and Kielland 2011
+76,3.1,7.7,0,0,0,13.3,,7.7,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Finstand and Kielland,Finstand and Kielland 2011
+31.4,16.7,42.8,2.3,4.4,0,1.8,,45.1,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,1-Calving,Finstand and Kielland,Finstand and Kielland 2011
+65.3,7.4,6.4,4.1,,0.1,2.7,,10.6,fecal,62,-137,2,12.8,4-Woodland,4-Winter,Fischer and Gates,Fischer and Gates 2005
+76,6,7,1,,0,9,,8,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+61,9,7,0,,0,24,,7,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+47,7,10,13,,0,23,,23,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+68,5,15,0,,0,11,,15,fecal,66,-160,2,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+77,6,7,4,,0,6,,11,fecal,66,-160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+60,7,18,0,,0,13,,18,fecal,66,-160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+72,1,10,4,,0,13,,14,fecal,62,-138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2012
+68,3,4,4,,0,20,,8,fecal,62,-138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2012
+54,15,15,0,,0,16,,15,fecal,63,-150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+77,5,5,0,,0,13,,5,fecal,63,-150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2012
+76,6,8,1,,0,9,,9,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+61,9,7,0,,0,24,,7,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+47,7,10,13,,0,24,,23,fecal,69,-150,3,7.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+72,2,11,4,,0,13,,15,fecal,62,-138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2014
+68,3,4,4,,0,20,,8,fecal,62,-138,4,10.9,4-Woodland,4-Winter,Gustine et al.,Gustine et al. 2014
+54,15,15,0,,0,16,,15,fecal,63,-150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+77,5,5,0,,0,13,,5,fecal,63,-150,2,13.7,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+68,5,15,0,,0,11,,15,fecal,66,-160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+77,6,7,4,,0,6,,11,fecal,66,-160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+60,7,18,1,,0,13,,19,fecal,66,-160,1,13.3,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+90,1,4,1,,0,4,,5,fecal,69,-117,1,9,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+53,10,16,4,,0,18,,20,fecal,66,-115,1,8.8,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+75,5,6,1,,0,13,,7,fecal,67,-52,1,,2-Barren Ground,4-Winter,Gustine et al.,Gustine et al. 2014
+55.5,7.2,2.9,12,15.3,0,7,,14.9,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Ihl and Klein,Ihl and Klein 2001
+53.6,12.1,8.6,8.4,7,0,10.4,,17,fecal,65.285,-164.675,2,10.1,6-Introduced-Reindeer,4-Winter,Ihl and Klein,Ihl and Klein 2001
+65.9,4.2,11.3,5,,0,8.1,3.6,16.3,fecal,67.1,-156,3,11.4,2-Barren Ground,3-Autumn,Joly and Cameron,Joly and Cameron 2018
+70.8,6.7,9.1,6,,0,11,0,15.1,fecal,67.1,-156,3,11.4,2-Barren Ground,4-Winter,Joly and Cameron,Joly and Cameron 2018
+68.4,6.3,8.2,2.9,,0,14,,11.1,fecal,67.1,-156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
+72.5,5.2,6.8,2.6,,0,13,,9.4,fecal,67.1,-156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
+72.8,5.8,7.6,1.7,,0,11.9,,9.3,fecal,67.1,-156,3,11.4,2-Barren Ground,4-Winter,Joly et al,Joly et al 2015
+90.5,3.3,2.1,0.8,,0,3.1,,2.9,fecal,67.1,-152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
+91.5,1,2.2,1.1,,0,3.9,,3.3,fecal,67.1,-152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
+88.8,1.6,4.2,0.4,,0,4.7,,4.6,fecal,67.1,-152,3,11.4,3-Mountain,4-Winter,Joly et al,Joly et al 2015
+30.5,29.9,23.3,4.5,,0,11.8,,27.8,fecal,67.8,-163.5,2,9.4,4-Woodland,2-Summer,Jung et al,Jung et al 2015
+55.5,13,8,9.6,,0,13.8,,17.6,fecal,67.8,-163.5,2,9.4,4-Woodland,4-Winter,Jung et al,Jung et al 2015
+0,22.4,43.1,0,,0,7.4,,43.1,fecal,71.11,-179.38,1,14.1,5-Reindeer,2-Summer,Kazmin et al,Kazmin et al 2011
+0,15.9,37.9,0,,0,4.5,,37.9,fecal,71.11,-179.38,1,14.1,5-Reindeer,3-Autumn,Kazmin et al,Kazmin et al 2011
+0,6.3,49.6,0,,0,18.1,,49.6,fecal,71.11,-179.38,1,14.1,5-Reindeer,4-Winter,Kazmin et al,Kazmin et al 2011
+53.9,10.1,16.5,0,,0,7.8,,16.5,fecal,69,26,2,,5-Reindeer,3-Autumn,Kojola et al,Kojola et al 1995
+53.2,6.3,22.9,0,,0,10.7,,22.9,fecal,69,26,2,,5-Reindeer,4-Winter,Kojola et al,Kojola et al 1995
+10.9,20.2,44.4,0,,0,,,44.4,fecal,72.5,-122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
+0,23,23.4,0,,0,,,23.4,fecal,72.5,-122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
+0,29.2,32.8,0,,0,,,32.8,fecal,72.5,-122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
+0,9,41.9,0,,0,,,41.9,fecal,72.5,-122,1,3.7,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 2004
+0,13.6,43.9,0,,0,,,43.9,fecal,72.5,-122,1,3.7,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 2004
+0,23,54.3,0,,0,,,54.3,fecal,72.5,-122,1,3.7,1-Peary,1-Calving,Larter and Nagy,Larter and Nagy 2004
+0,4.7,86.8,0,,0,,,86.8,fecal,72.5,-122,1,3.7,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 2004
+0,15.3,63.9,0,,0,,,63.9,fecal,72.5,-122,1,3.7,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 2004
+0,28.4,31.5,0,,0,,,31.5,fecal,72.5,-122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
+0,25.9,38,0,,0,,,38,fecal,72.5,-122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
+0,18.8,41.9,0,,0,,,41.9,fecal,72.5,-122,1,3.7,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 2004
+0,26.3,21.2,0,,0,,,21.2,fecal,72.5,-122,1,3.7,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 2004
+14.8,60.9,25.1,0,,0,6.1,,25.1,rumen,69,23,1,,5-Reindeer,3-Autumn,Mathiesen et al,Mathiesen et al 2000
+14.4,53.4,27.1,0,,0,9.6,,27.1,rumen,69,23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
+13.3,62.3,16.2,0,,0,9.9,,16.2,rumen,69,23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
+25.8,51.3,17.2,0,,0,7.4,,17.2,rumen,69,23,1,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 2000
+41.7,10,33.7,0,,0,15.6,,33.7,fecal,69.3,27,1,,5-Reindeer,4-Winter,Ophof et al.,Ophof et al. 2013
+45.1,18.3,22.2,0,,0,15.3,,22.2,fecal,69.3,27,1,,5-Reindeer,5-Spring,Ophof et al.,Ophof et al. 2013
+26.6,,0,0,,31.1,,,31.1,fecal,51.39,-117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
+62.2,,0,0,,35.4,,,35.4,fecal,51.39,-117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
+84,,0,0,,14,,,14,fecal,51.39,-117.52,0,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
+8.8,,0,0,,20.2,,,20.2,fecal,51.39,-117.52,1,16.4,4-Woodland,4-Winter,Rominger and Oldemeyer,Rominger and Oldemeyer 1990
+19.3,18.37,0.369,0.065,0,0,0.12,,0.434,fecal,71.11,-179.38,1,14.1,5-Reindeer,4-Winter,Rozenfield et al,Rozenfield et al 2012
+0,0.342,0.48,0.1,0,0,0.07,,0.58,fecal,71.11,-179.38,1,14.1,5-Reindeer,5-Spring,Rozenfield et al,Rozenfield et al 2012
+0.01,0.64,0.173,0.121,0.013,0,0.039,,0.294,fecal,71.11,-179.38,1,14.1,5-Reindeer,2-Summer,Rozenfield et al,Rozenfield et al 2012
+0.02,0.536,0.246,0.055,0.026,0,0.11,,0.301,fecal,71.11,-179.38,2,14.1,5-Reindeer,3-Autumn,Rozenfield et al,Rozenfield et al 2012
+34,13,43,0,,0,,,43,fecal,48,-55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
+44,15,17,0,,0,,,17,fecal,48,-55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
+34,14,38,0,,0,,,38,fecal,48,-55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
+40,2,50,0,,0,,,50,fecal,48,-55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
+40,10,18,0,,0,,,18,fecal,48,-55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
+64,1,15,0,,0,,,15,fecal,48,-55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
+57,19,19,0,,0,,,19,fecal,48,-55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
+47,7.4,13,0,,0,,,13,fecal,48,-55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
+65,15,12,0,,0,,,12,fecal,48,-55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
+30,18,8.2,0,,0,,,8.2,fecal,48,-55,2,15.3,4-Woodland,5-Spring,Schaefer et al.,Schaefer et al. 2016
+24,21,36,0,,0,,,36,fecal,48,-55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
+11,11,18.7,0,,0,,,18.7,fecal,48,-55,2,15.3,4-Woodland,2-Summer,Schaefer et al.,Schaefer et al. 2016
+63,0.2,12.7,0,,0,,,12.7,fecal,48,-55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
+46,4.2,11.3,0,,0,,,11.3,fecal,48,-55,2,15.3,4-Woodland,3-Autumn,Schaefer et al.,Schaefer et al. 2016
+53.5,6.7,22.5,0,,0,,,22.5,fecal,48,-55,2,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
+46.8,4.6,8.7,0,,0,,,8.7,fecal,48,-55,0,15.3,4-Woodland,4-Winter,Schaefer et al.,Schaefer et al. 2016
+0,68.2,9.1,30.2,5.7,0,26.9,,39.3,rumen,79.45,20,0,,5-Reindeer,3-Autumn,Sormo et al,Sormo et al 1999
+0.6,55.1,7.7,87.2,27.8,0,23.4,,94.9,rumen,79.45,20,0,,5-Reindeer,3-Autumn,Sormo et al,Sormo et al 1999
+0,30.3,16.3,65.4,0,0,10,,81.7,rumen,79.45,20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
+2.2,35.5,4.6,0,0,0,54.2,,4.6,rumen,79.45,20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
+1.7,39.7,15.8,60.7,3.7,0,6.1,,76.5,rumen,79.45,20,0,,5-Reindeer,2-Summer,Sormo et al,Sormo et al 1999
+0.3,13,12.7,67,0,0,7.3,,79.7,rumen,79.45,20,0,,5-Reindeer,4-Winter,Sormo et al,Sormo et al 1999
+2,41,10,2,,0,43,,12,rumen,77.9,15,0,,5-Reindeer,4-Winter,Staaland and White,Staaland and White 1991
+20,42,7,8,,0,16,,15,rumen,77.9,15,2,,5-Reindeer,2-Summer,Staaland and White,Staaland and White 1991
 66.7,3.2,1.2,0,,0,28.8,,1.2,fecal,,,2,,2-Barren Ground,4-Winter,Thompson and McCourt,Thompson and McCourt 1981
 37.3,55.5,0.2,0,,0,6.5,,0.2,fecal,,,2,,2-Barren Ground,5-Spring,Thompson and McCourt,Thompson and McCourt 1981
 13.2,77.6,0.7,0,,0,7.9,,0.7,fecal,,,2,,2-Barren Ground,1-Calving,Thompson and McCourt,Thompson and McCourt 1981
@@ -123,33 +123,33 @@ lichen,graminoid,shrubs,forbs,horsetail,tree,moss,fungi,vascular,data type,latit
 1.9,1,95.7,0,,0,1.4,,95.7,fecal,,,2,,2-Barren Ground,2-Summer,Thompson and McCourt,Thompson and McCourt 1981
 68.5,1.6,20.7,0,,0,8.3,,20.7,fecal,,,2,,2-Barren Ground,2-Summer,Thompson and McCourt,Thompson and McCourt 1981
 59.1,1.9,0.7,0,,0,37.8,,0.7,fecal,,,2,,2-Barren Ground,3-Autumn,Thompson and McCourt,Thompson and McCourt 1981
-0,0,2,1,36,59,,,62,fecal,48.56,66.07,2,15.7,4-Woodland,2-Summer,Christopherson et al.,Christopherson et al. 2019
-0,19.76,50.81,7.66,,0,,,58.47,fecal,73,120,1,,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 1997
-2.22,19.155,61.89,4.84,,0,,,66.73,fecal,73,120,1,,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 1997
-1.34,33.33333333,13.84333333,19.75666667,,0,,,33.6,fecal,73,120,1,,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 1997
-0.94,36.69333333,5.646666667,17.34,,0,,,22.986666667,fecal,73,120,1,,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 1997
-1.21,13.1,9.675,46.975,,0,,,56.65,fecal,73,120,1,,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 1997
-4,40,9,20,,0,25,,29,rumen,73.2467,93.5193,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
-15,20,10,36,,0,13,,46,rumen,72.6766,99.4692,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
-10,15,0,2,,0,58,,2,rumen,70.34,128,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
-11,47,1,5,,0,34,,6,rumen,75.3,111.3,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
-2,57,0,0,,0,40,,0,rumen,76.7775,118.9721,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
-55.9,27.9,8.9,0,,0,2.5,0,8.9,rumen,60.03,-7.25,3,,5-Reindeer,4-Winter,Gaare and Skogland,Gaare and Skogland 1975
-53.2,26.3,12,0,,0,3.2,0,12,rumen,60.03,-7.25,3,,5-Reindeer,4-Winter,Gaare and Skogland,Gaare and Skogland 1975
-34.1,21.8,22,0,,0,12,0,22,rumen,60.03,-7.25,3,,5-Reindeer,5-Spring,Gaare and Skogland,Gaare and Skogland 1975
-31.2,25.1,25,0.1,,0,6.1,0,25.1,rumen,60.03,-7.25,3,,5-Reindeer,1-Calving,Gaare and Skogland,Gaare and Skogland 1975
-25.1,49,13.3,7.6,,0,3.7,0,20.9,rumen,60.03,-7.25,3,,5-Reindeer,2-Summer,Gaare and Skogland,Gaare and Skogland 1975
-34,47,10.5,1.1,,0,5.3,0.5,11.6,rumen,60.03,-7.25,3,,5-Reindeer,3-Autumn,Gaare and Skogland,Gaare and Skogland 1975
-51.3,38,3.9,0,,0,2.1,0,3.9,rumen,60.03,-7.25,3,,5-Reindeer,3-Autumn,Gaare and Skogland,Gaare and Skogland 1975
-10,51,15,12,,0,,,27,rumen,48.5,53,1,,4-Woodland,1-Calving,Bergerud,Bergerud 1972
-24,10,23,8,,0,5,25,31,rumen,48.5,53,1,,4-Woodland,2-Summer,Bergerud,Bergerud 1972
-40,10,21,12,,0,5,12,33,rumen,48.5,53,1,,4-Woodland,3-Autumn,Bergerud,Bergerud 1972
-56,7,26,0,,4,6,,30,rumen,48.5,53,1,,4-Woodland,4-Winter,Bergerud,Bergerud 1972
-68.5,,5.2,0,,11.9,4.9,,17.1,rumen,64,124,1,,2-Barren Ground,4-Winter,Thomas and Hervieux,Thomas and Hervieux 1986
-46.35,20.93,26.25,0,,0,6.44,,26.25,fecal,69.58,-26.46,1,,5-Reindeer,4-Winter,Bezard et al,Bezard et al 2015
-42.58,30.2,24.92,0,,0,2.352,,24.92,fecal,69.58,-26.46,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
-33.62,32.76,30.8,0,,0,3.696,,30.8,fecal,68.8,-27,1,,5-Reindeer,4-Winter,Bezard et al,Bezard et al 2015
-32.95,36.19,28.4,0,,0,2.912,,28.4,fecal,68.8,-27,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
-37.4,20.94,37.85,0,,0,3.528,,37.85,fecal,69.48,-26.38,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
-10.8,16.7,17.6,48.5,,0,4.2,0.4,66.1,rumen,69,-21,0,,5-Reindeer,2-Summer,Mathiesen et al,Mathiesen et al 1999
-36.2,12.7,36.01,8.41,,0,6.3,0,44.42,rumen,69,-23,0,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 1999
+0,0,2,1,36,59,,,62,fecal,48.56,-66.07,2,15.7,4-Woodland,2-Summer,Christopherson et al.,Christopherson et al. 2019
+0,19.76,50.81,7.66,,0,,,58.47,fecal,73,-120,1,,1-Peary,2-Summer,Larter and Nagy,Larter and Nagy 1997
+2.22,19.155,61.89,4.84,,0,,,66.73,fecal,73,-120,1,,1-Peary,3-Autumn,Larter and Nagy,Larter and Nagy 1997
+1.34,33.33333333,13.84333333,19.75666667,,0,,,33.6,fecal,73,-120,1,,1-Peary,4-Winter,Larter and Nagy,Larter and Nagy 1997
+0.94,36.69333333,5.646666667,17.34,,0,,,22.986666667,fecal,73,-120,1,,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 1997
+1.21,13.1,9.675,46.975,,0,,,56.65,fecal,73,-120,1,,1-Peary,5-Spring,Larter and Nagy,Larter and Nagy 1997
+4,40,9,20,,0,25,,29,rumen,73.2467,-93.5193,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
+15,20,10,36,,0,13,,46,rumen,72.6766,-99.4692,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
+10,15,0,2,,0,58,,2,rumen,70.34,-128,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
+11,47,1,5,,0,34,,6,rumen,75.3,-111.3,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
+2,57,0,0,,0,40,,0,rumen,76.7775,-118.9721,1,,1-Peary,5-Spring,Thomas and Edmonds,Thomas and Edmonds 1983
+55.9,27.9,8.9,0,,0,2.5,0,8.9,rumen,60.03,7.25,3,,5-Reindeer,4-Winter,Gaare and Skogland,Gaare and Skogland 1975
+53.2,26.3,12,0,,0,3.2,0,12,rumen,60.03,7.25,3,,5-Reindeer,4-Winter,Gaare and Skogland,Gaare and Skogland 1975
+34.1,21.8,22,0,,0,12,0,22,rumen,60.03,7.25,3,,5-Reindeer,5-Spring,Gaare and Skogland,Gaare and Skogland 1975
+31.2,25.1,25,0.1,,0,6.1,0,25.1,rumen,60.03,7.25,3,,5-Reindeer,1-Calving,Gaare and Skogland,Gaare and Skogland 1975
+25.1,49,13.3,7.6,,0,3.7,0,20.9,rumen,60.03,7.25,3,,5-Reindeer,2-Summer,Gaare and Skogland,Gaare and Skogland 1975
+34,47,10.5,1.1,,0,5.3,0.5,11.6,rumen,60.03,7.25,3,,5-Reindeer,3-Autumn,Gaare and Skogland,Gaare and Skogland 1975
+51.3,38,3.9,0,,0,2.1,0,3.9,rumen,60.03,7.25,3,,5-Reindeer,3-Autumn,Gaare and Skogland,Gaare and Skogland 1975
+10,51,15,12,,0,,,27,rumen,48.5,-53,1,,4-Woodland,1-Calving,Bergerud,Bergerud 1972
+24,10,23,8,,0,5,25,31,rumen,48.5,-53,1,,4-Woodland,2-Summer,Bergerud,Bergerud 1972
+40,10,21,12,,0,5,12,33,rumen,48.5,-53,1,,4-Woodland,3-Autumn,Bergerud,Bergerud 1972
+56,7,26,0,,4,6,,30,rumen,48.5,-53,1,,4-Woodland,4-Winter,Bergerud,Bergerud 1972
+68.5,,5.2,0,,11.9,4.9,,17.1,rumen,64,-124,1,,2-Barren Ground,4-Winter,Thomas and Hervieux,Thomas and Hervieux 1986
+46.35,20.93,26.25,0,,0,6.44,,26.25,fecal,69.58,26.46,1,,5-Reindeer,4-Winter,Bezard et al,Bezard et al 2015
+42.58,30.2,24.92,0,,0,2.352,,24.92,fecal,69.58,26.46,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
+33.62,32.76,30.8,0,,0,3.696,,30.8,fecal,68.8,27,1,,5-Reindeer,4-Winter,Bezard et al,Bezard et al 2015
+32.95,36.19,28.4,0,,0,2.912,,28.4,fecal,68.8,27,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
+37.4,20.94,37.85,0,,0,3.528,,37.85,fecal,69.48,26.38,1,,5-Reindeer,2-Summer,Bezard et al,Bezard et al 2015
+10.8,16.7,17.6,48.5,,0,4.2,0.4,66.1,rumen,69,21,0,,5-Reindeer,2-Summer,Mathiesen et al,Mathiesen et al 1999
+36.2,12.7,36.01,8.41,,0,6.3,0,44.42,rumen,69,23,0,,5-Reindeer,4-Winter,Mathiesen et al,Mathiesen et al 1999
