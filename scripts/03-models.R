@@ -6,7 +6,7 @@ library(MuMIn)
 library(ggplot2)
 
 ## load data
-sub <- fread("output/clean-data-npp2.csv")
+sub <- fread("output/clean-data-all.csv")
 sub$lichen <- sub$lichen/100
 sub$graminoid <- sub$graminoid/100
 sub$vascular <- sub$vascular/100
@@ -213,11 +213,11 @@ lichen_mods$weights <- round(Weights(AICc(a1, a2, a3, a4, a5, a6, a7, a8,
 
 
 ## top model:
-summary(a11)
-performance::r2(a11)
+summary(a5)
+performance::r2(a5)
 
 
-saveRDS(a11, "output/lichen-model.RDS")
+saveRDS(a5, "output/lichen-model.RDS")
 
 
 ############################# 
@@ -414,8 +414,8 @@ graminoid_mods$weights <- round(Weights(AICc(b1, b2, b3, b4, b5, b6, b7, b8,
                                              b9, b10, b11, b12, b13, b14, b15)),3)
 
 ## top model
-summary(b15)
-performance::r2(b15)
+summary(b6)
+performance::r2(b6)
 
 
 saveRDS(b15, "output/graminoid-model.RDS")
