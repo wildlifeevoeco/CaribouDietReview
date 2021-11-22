@@ -418,7 +418,7 @@ summary(b6)
 performance::r2(b6)
 
 
-saveRDS(b15, "output/graminoid-model.RDS")
+saveRDS(b6, "output/graminoid-model.RDS")
 
 
 ##################################### 
