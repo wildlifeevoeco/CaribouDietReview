@@ -4,7 +4,7 @@ library(data.table)
 library(ggplot2)
 library(gridExtra)
 
-sub <- fread("output/clean-data.csv")
+sub <- fread("output/clean-data-all.csv")
 
 sub[, .N, by = "author_yr"]
 
