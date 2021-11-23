@@ -9,11 +9,11 @@ sub <- fread("output/clean-data.csv")
 sub <- sub[!is.na(sub$sympatric_ungulates)]
 
 ### Sympatric ungulates
-sub$sympatric_ungulates[sub$sympatric_ungulates == "4"] <- ">4"
-sub$sympatric_ungulates[sub$sympatric_ungulates == "5"] <- ">4"
-sub$sympatric_ungulates[sub$sympatric_ungulates == "6"] <- ">4"
+sub$sympatric_ungulates[sub$sympatric_ungulates == "4"] <- "4"
+sub$sympatric_ungulates[sub$sympatric_ungulates == "5"] <- "4"
+sub$sympatric_ungulates[sub$sympatric_ungulates == "6"] <- "4"
 
-sub$sympatric_ungulates <- factor(sub$sympatric_ungulates, levels=c("0", "1",  "2", "3", ">4"))
+sub$sympatric_ungulates <- as.numeric(sub$sympatric_ungulates) #, levels=c("0", "1",  "2", "3", ">4"))
 
 
 png("figures/fig3.png", width = 8000, height = 4000, units = "px", res = 600)
@@ -24,9 +24,10 @@ aa <- ggplot(sub,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(fill = "darkgrey", 
-               alpha = 0.5,
-               outlier.color = NA) + 
+  geom_smooth(method = "lm", color = "black") +
+  #geom_boxplot(fill = "darkgrey", 
+  #             alpha = 0.5,
+  #             outlier.color = NA) + 
   ylab("Percent lichen in diet") + xlab("Number of sympatric ungulates") +
   ylim(0,100) +
   ggtitle("A)") +
@@ -50,9 +51,10 @@ bb <- ggplot(sub,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(fill = "darkgrey", 
-               alpha = 0.5,
-               outlier.color = NA) + 
+  geom_smooth(method = "lm", color = "black") +
+  #geom_boxplot(fill = "darkgrey", 
+  #             alpha = 0.5,
+  #             outlier.color = NA) + 
   ylab("Percent graminoid in diet") + xlab("Number of sympatric ungulates") +
   ylim(0,100) +
   ggtitle("B)") +
@@ -76,9 +78,10 @@ cc <- ggplot(sub,
               position = position_jitter(0.2),
               size = 2,
               alpha = 0.6) +
-  geom_boxplot(fill = "darkgrey", 
-               alpha = 0.5,
-               outlier.color = NA) + 
+  geom_smooth(method = "lm", color = "black") +
+  #geom_boxplot(fill = "darkgrey", 
+   #            alpha = 0.5,
+    #           outlier.color = NA) + 
   ylab("Percent vascular plants in diet") + xlab("Number of sympatric ungulates") +
   ylim(0,100) +
   ggtitle("C)") +
