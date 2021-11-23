@@ -25,8 +25,7 @@ ggplot(df, aes(Npp, diet, color = plant)) +
               alpha = 0.75,
               size = 2) +
   geom_smooth(aes(color = plant), 
-              method = "lm", 
-              se = F) +
+              method = "lm", se = F) +
   scale_color_manual(values = col) +
   xlab("Average annual net primary productivity") +
   ylab("Percentage of plant type in diet") + 
@@ -35,6 +34,7 @@ ggplot(df, aes(Npp, diet, color = plant)) +
         legend.key = element_blank(),
         legend.text = element_text(size = 12, color = "black"),
         legend.title = element_blank(),
+        legend.background = element_blank(),
         axis.title = element_text(size=18),
         axis.text.y = element_text(size=12, color = "black"),
         axis.text.x = element_text(size = 12, color = "black"), 
