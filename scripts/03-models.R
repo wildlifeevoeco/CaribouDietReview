@@ -17,6 +17,9 @@ setnames(sub, c("data type", "Subspecies", "sympatric_ungulates"), c("data", "su
 sub$symp[sub$symp == 5] <- 4
 sub$symp[sub$symp == 6] <- 4
 
+## multiply NPP * 0.0001
+sub$Npp <- sub$Npp*0.0001
+
 
 ########################### 
 ######## LICHEN ##########
@@ -620,4 +623,6 @@ summary(c8)
 performance::r2(c8)
 
 saveRDS(c8, "output/vascular-model.RDS")
+
+
 
