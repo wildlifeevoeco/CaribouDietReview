@@ -16,7 +16,6 @@ sub$sympatric_ungulates[sub$sympatric_ungulates == "6"] <- "4"
 sub$sympatric_ungulates <- as.numeric(sub$sympatric_ungulates) #, levels=c("0", "1",  "2", "3", ">4"))
 
 
-png("figures/fig3.png", width = 8000, height = 4000, units = "px", res = 600)
 aa <- ggplot(sub, 
              aes(sympatric_ungulates, lichen, fill=sympatric_ungulates)) + 
   geom_jitter(color = "black", 
@@ -35,7 +34,7 @@ aa <- ggplot(sub,
         legend.key = element_blank(),
         legend.text = element_text(size = 12, color = "black"),
         legend.title = element_blank(),
-        axis.title = element_text(size=18),
+        axis.title = element_text(size=14),
         axis.text.y = element_text(size=12, color = "black"),
         axis.text.x = element_text(size = 12, color = "black",  hjust = 1), 
         strip.text  = element_text(size = 16),
@@ -62,7 +61,7 @@ bb <- ggplot(sub,
         legend.key = element_blank(),
         legend.text = element_text(size = 12, color = "black"),
         legend.title = element_blank(),
-        axis.title = element_text(size=18),
+        axis.title = element_text(size=14),
         axis.text.y = element_text(size=12, color = "black"),
         axis.text.x = element_text(size = 12, color = "black", hjust = 1), 
         strip.text  = element_text(size = 16),
@@ -89,7 +88,7 @@ cc <- ggplot(sub,
         legend.key = element_blank(),
         legend.text = element_text(size = 12, color = "black"),
         legend.title = element_blank(),
-        axis.title = element_text(size=18),
+        axis.title = element_text(size=14),
         axis.text.y = element_text(size=12, color = "black"),
         axis.text.x = element_text(size = 12, color = "black", hjust = 1), 
         strip.text  = element_text(size = 16),
@@ -99,5 +98,12 @@ cc <- ggplot(sub,
         panel.border = element_rect(colour = "black", fill=NA, size=1)) 
 
 
-grid.arrange(aa,bb, cc, nrow = 1)
-dev.off()
+g <- grid.arrange(aa,bb, cc, nrow = 1)
+
+ggsave(
+  'figures/fig3.pdf',
+  g,
+  width = 10,
+  height = 5,
+  dpi = 320
+)
