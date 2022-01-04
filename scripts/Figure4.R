@@ -25,8 +25,7 @@ df <- rbind(gram, lichen)
 
 col = c("black", "darkgrey")
 
-png("figures/fig4.png", width = 4000, height = 4000, units = "px", res = 600)
-ggplot(df, aes(Npp, diet, color = plant)) +
+g <- ggplot(df, aes(Npp, diet, color = plant)) +
   geom_jitter(aes(shape = plant), 
               width = 0.01, 
               alpha = 0.75,
@@ -51,4 +50,11 @@ ggplot(df, aes(Npp, diet, color = plant)) +
         panel.grid.minor = element_blank(),
         panel.background = element_blank(),
         panel.border = element_rect(colour = "black", fill=NA, size=1)) 
-dev.off()
+
+ggsave(
+  'figures/fig4.pdf',
+  g,
+  width = 7,
+  height = 7,
+  dpi = 320
+)
