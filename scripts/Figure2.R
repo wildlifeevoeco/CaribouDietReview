@@ -4,8 +4,6 @@ library(ggplot2)
 
 sub <- fread("output/clean-data.csv")
 
-
-png("figures/fig2.png", width = 8000, height = 4000, units = "px", res = 600)
 aa <- ggplot(sub, 
              aes(Subspecies, lichen, fill=Subspecies)) + 
   geom_jitter(color = "black", 
@@ -85,6 +83,12 @@ cc <- ggplot(sub,
         panel.border = element_rect(colour = "black", fill=NA, size=1)) 
 
 
-grid.arrange(aa,bb, cc, nrow = 1)
+g <- grid.arrange(aa,bb, cc, nrow = 1)
 
-dev.off()
+ggsave(
+  'figures/fig2.pdf',
+  g,
+  width = 10,
+  height = 5,
+  dpi = 320
+)
